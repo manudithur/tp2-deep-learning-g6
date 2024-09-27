@@ -1,191 +1,349 @@
 title;description;type;calories;fat;carbs;protein
-Apple;An apple a day keeps the doctor away;breakfast,snack,dessert;95;0.3;25;0.5
-Banana;The yellow fruit;breakfast,snack,dessert;300;0.4;27;1.2
-Orange;The orange fruit;breakfast,snack,dessert;62;0.2;15;1.2
-Watermelon;The summer fruit;breakfast,snack,dessert;30;0.2;8;0.6
-Strawberry;The red fruit;breakfast,snack,dessert;29;0.4;7;0.8
-Mango;The tropical fruit;breakfast,snack,dessert;60;0.4;15;0.8
-Pineapple;The tropical fruit;breakfast,snack,dessert;50;0.1;13;0.5
-Grapes;The small fruit;breakfast,snack,dessert;69;0.2;18;0.7
-Pasta with tomato sauce;The Italian dish;lunch,dinner;157;1.3;31;5.3
-Rice with vegetables;The Asian dish;lunch,dinner;207;0.6;44;4.3
-Spaghetti with meatballs;The Italian dish;lunch,dinner;221;7.9;24;13.3
-Goulash;The Hungarian dish;lunch,dinner;155;6.6;10;14.1
-Lasagne;The Italian dish;lunch,dinner;185;7.3;19;10.1
-Pizza;The Italian dish;lunch,dinner;266;10.2;33;12.1
-Hawaian salad;The tropical salad;lunch,dinner;110;2.6;20;2.3
-Hamburger;The American dish;lunch,dinner;250;9.4;27;12.3
-Ceasar salad;The American salad;lunch,dinner;180;7.3;12;15.1
-Greek salad;The Greek salad;lunch,dinner;160;6.3;14;13.1
-Tiramisu;The Italian dessert;dessert;450;31;38;6
-Pancakes;The American dessert;dessert;200;8;27;6
-Apple pie;The American dessert;dessert;300;12;42;4
-Cheesecake;The American dessert;dessert;321;15;41;5
-Chocolate cake;The American dessert;dessert;400;20;50;6
-Ice cream;The American dessert;dessert;207;11;25;3
-Meat with potatoes;The Hungarian dish;lunch,dinner;250;12;20;15
-Chicken with rice;The Asian dish;lunch,dinner;300;15;25;20
-Fish with vegetables;The healthy dish;lunch,dinner;200;10;15;20
-Salmon with potatoes;The healthy dish;lunch,dinner;250;12;20;15
-Trout with vegetables;The healthy dish;lunch,dinner;200;10;15;20
-Baked cod;The healthy dish;lunch,dinner;250;12;20;15
-Sushi;The Japanese dish;lunch,dinner;200;5;30;8
-Grilled chicken salad;The healthy salad;lunch,dinner;180;4;10;25
-Burrito;The Mexican dish;lunch,dinner;290;10;40;12
-Fried rice;The Asian dish;lunch,dinner;250;8;30;6
-Porridge;The hearty breakfast;breakfast;150;2;27;5
-Egg and avocado toast;The healthy breakfast;breakfast;220;12;18;10
-Vegetable stir-fry;The healthy dish;lunch,dinner;180;5;20;5
-Chicken tikka masala;The Indian dish;lunch,dinner;300;15;25;20
-Falafel wrap;The Mediterranean dish;lunch,dinner;250;10;30;8
-Miso soup;The Japanese soup;lunch,dinner;60;2;5;4
-Granola with yogurt;The healthy breakfast;breakfast;200;8;30;6
-French toast;The American breakfast;breakfast;220;8;30;7
-Lentil soup;The hearty soup;lunch,dinner;180;4;25;10
-Beef stew;The hearty dish;lunch,dinner;300;15;20;25
-Pad Thai;The Thai dish;lunch,dinner;310;10;45;15
-Chia pudding;The healthy snack;snack,dessert;180;12;15;6
-Spring rolls;The Asian snack;snack;150;5;20;4
-Vegetarian pizza;The Italian dish;lunch,dinner;240;8;35;10
-Couscous with vegetables;The Middle Eastern dish;lunch,dinner;190;4;30;6
-Quinoa salad;The healthy salad;lunch,dinner;200;6;25;8
-Shakshuka;The Middle Eastern dish;breakfast,lunch;160;8;12;10
-Baked beans on toast;The British breakfast;breakfast;180;5;30;8
-Falafel;The Middle Eastern dish;lunch,dinner;330;18;32;12
-Chicken Caesar wrap;The healthy wrap;lunch,dinner;290;10;30;20
-Vegetable curry;The Indian dish;lunch,dinner;240;10;35;8
-Eggplant Parmesan;The Italian dish;lunch,dinner;380;20;40;15
-Beef tacos;The Mexican dish;lunch,dinner;290;12;30;20
-Prawn cocktail;The seafood appetizer;snack,lunch;120;5;10;12
-Lamb kebab;The Mediterranean dish;lunch,dinner;320;20;25;15
-Risotto with mushrooms;The Italian dish;lunch,dinner;350;12;50;10
-Avocado salad;The healthy salad;lunch,dinner;200;15;10;5
-Gnocchi with pesto;The Italian dish;lunch,dinner;280;12;40;8
-Chili con carne;The Mexican dish;lunch,dinner;350;15;35;20
-Ratatouille;The French vegetable dish;lunch,dinner;150;5;20;5
-Tofu stir-fry;The vegetarian dish;lunch,dinner;220;12;25;15
-Shrimp scampi;The seafood dish;lunch,dinner;280;15;20;20
-Tom Yum soup;The Thai soup;lunch,dinner;120;3;15;10
-Greek yogurt with honey;The healthy snack;snack;150;6;18;8
-Chicken quesadilla;The Mexican dish;lunch,dinner;320;16;30;22
-Stuffed bell peppers;The healthy dish;lunch,dinner;250;10;35;15
-Paella;The Spanish rice dish;lunch,dinner;350;10;45;15
-Bibimbap;The Korean rice dish;lunch,dinner;450;16;60;20
-Pho;The Vietnamese noodle soup;lunch,dinner;350;5;50;15
-Samosa;The Indian snack;snack;262;17;29;5
-Shawarma;The Middle Eastern dish;lunch,dinner;500;25;40;30
-Fettuccine Alfredo;The Italian pasta dish;lunch,dinner;570;35;45;15
-Poutine;The Canadian dish;snack,lunch;740;40;80;15
-Arepa;The Venezuelan dish;breakfast,lunch;300;10;40;8
-Tacos al Pastor;The Mexican dish;lunch,dinner;280;12;25;18
-Kimchi fried rice;The Korean dish;lunch,dinner;450;12;70;10
-Ceviche;The Peruvian dish;snack,lunch;150;3;10;20
-Moussaka;The Greek dish;lunch,dinner;350;18;25;15
-Pierogi;The Polish dish;lunch,dinner;220;7;35;6
-Borscht;The Eastern European soup;lunch,dinner;120;2;20;3
-Baklava;The Middle Eastern dessert;dessert;350;22;45;4
-Croissant;The French pastry;breakfast;231;12;26;5
-Roti Canai;The Malaysian dish;lunch,dinner;300;15;35;8
-Pad See Ew;The Thai noodle dish;lunch,dinner;450;12;65;20
-Empanadas;The Argentinean dish;snack,lunch;400;20;40;12
-Tagine;The Moroccan dish;lunch,dinner;350;15;45;12
-Tandoori Chicken;The Indian dish;lunch,dinner;300;12;15;40
-Fried plantains;The Caribbean dish;snack,lunch;290;14;45;2
-Dim sum;The Chinese dish;snack,lunch;210;10;25;8
-Fattoush;The Middle Eastern salad;lunch,dinner;180;8;22;4
-Jollof rice;The West African dish;lunch,dinner;350;12;55;6
-Chicken schnitzel;The German dish;lunch,dinner;400;20;35;30
-Bulgogi;The Korean beef dish;lunch,dinner;450;25;40;25
-Ramen;The Japanese noodle soup;lunch,dinner;500;15;60;25
-Gado-Gado;The Indonesian salad;lunch,dinner;250;12;30;12
-Fried calamari;The Mediterranean appetizer;snack,lunch;300;15;35;10
-Okonomiyaki;The Japanese pancake;lunch,dinner;400;20;50;15
-Pozole;The Mexican soup;lunch,dinner;320;12;45;15
-Hummus with pita;The Middle Eastern snack;snack,lunch;300;12;45;10
-Escargot;The French appetizer;snack,lunch;250;20;5;10
-Calzone;The Italian dish;lunch,dinner;600;30;65;25
-Kofta;The Middle Eastern dish;lunch,dinner;350;22;30;18
-Spanakopita;The Greek pie;snack,lunch;250;15;30;10
-Gazpacho;The Spanish cold soup;lunch,dinner;150;7;20;3
-Sauerbraten;The German beef dish;lunch,dinner;450;18;20;35
-Nasi Goreng;The Indonesian rice dish;lunch,dinner;500;15;70;15
-Yakitori;The Japanese chicken skewers;snack,lunch;250;10;10;30
-Tuna tartare;The seafood appetizer;snack,lunch;200;8;5;25
-Gumbo;The Southern American dish;lunch,dinner;400;18;45;20
-Focaccia;The Italian bread;snack;300;15;40;8
-Lamb curry;The Indian dish;lunch,dinner;450;25;35;20
-Tostones;The Latin American snack;snack,lunch;250;10;35;3
-Baba ghanoush;The Middle Eastern appetizer;snack;180;10;20;5
-Pavlova;The Australian dessert;dessert;300;5;55;4
-Tamales;The Mexican dish;lunch,dinner;350;15;45;10
-Couscous salad;The Mediterranean salad;lunch,dinner;200;8;30;5
-Fried chicken;The American dish;lunch,dinner;450;25;35;25
-Chicken shawarma wrap;The Middle Eastern wrap;lunch,dinner;400;20;45;25
-Bruschetta;The Italian appetizer;snack;180;8;20;4
-Duck confit;The French dish;lunch,dinner;600;40;10;35
-Saganaki;The Greek cheese dish;snack;400;25;10;25
-Churros;The Spanish dessert;dessert;300;12;45;4
-Kimchi pancake;The Korean snack;snack,lunch;250;8;30;6
-Khachapuri;The Georgian cheese bread;lunch,dinner;500;25;60;20
-Sichuan hotpot;The Chinese dish;lunch,dinner;600;25;45;35
-Cassoulet;The French stew;lunch,dinner;700;35;50;35
-Asado;The Argentine barbecue;lunch,dinner;800;50;10;70
-Milanesa;The breaded meat cutlet;lunch,dinner;550;30;40;35
-Choripán;The grilled sausage sandwich;lunch,dinner;450;25;30;25
-Empanada de carne;The Argentine meat pastry;snack,lunch;300;15;35;12
-Provoleta;The grilled provolone cheese appetizer;snack;400;35;3;20
-Locro;The hearty Argentine stew;lunch,dinner;600;20;60;30
-Humita;The corn-based dish;lunch,dinner;350;15;40;10
-Matambre a la pizza;The Argentine meat pizza;lunch,dinner;600;35;45;40
-Carbonada;The Argentine beef and vegetable stew;lunch,dinner;500;20;50;30
-Cazuela de mariscos;The seafood casserole;lunch,dinner;450;20;35;30
-Morcilla;The Argentine blood sausage;snack,lunch;400;30;5;25
-Pastel de papas;The Argentine shepherd's pie;lunch,dinner;500;25;50;25
-Puchero;The Argentine boiled meat and vegetable dish;lunch,dinner;600;30;40;40
-Tarta Pascualina;The Argentine spinach pie;lunch,dinner;400;20;45;15
-Chimichurri sauce;The Argentine condiment;snack,lunch;150;15;3;1
-Revuelto Gramajo;The Argentine scrambled egg and fries dish;lunch,dinner;450;30;30;15
-Fainá;The Argentine chickpea flatbread;snack;200;8;30;5
-Suprema a la napolitana;The Argentine breaded chicken with cheese;lunch,dinner;600;35;50;40
-Arroz con pollo;The Argentine rice with chicken dish;lunch,dinner;450;15;55;30
-Lomito sandwich;The Argentine beef sandwich;lunch,dinner;700;40;60;35
-Bife de chorizo;The Argentine grilled steak;lunch,dinner;750;50;0;65
-Ensalada rusa;The Argentine potato salad;lunch,dinner;350;25;20;5
-Pollo al disco;The Argentine chicken stew;lunch,dinner;500;25;35;40
-Chocotorta;The Argentine layered chocolate dessert;dessert;450;25;60;6
-Dulce de leche pancakes;The Argentine dessert;dessert;400;15;60;6
-Sorrentinos;The Argentine stuffed pasta;lunch,dinner;550;20;70;25
-Ñoquis;The Argentine potato gnocchi;lunch,dinner;450;15;70;12
-Pizza de fugazza;The Argentine onion pizza;lunch,dinner;600;30;60;25
-Tortas fritas;The Argentine fried bread;snack;250;12;30;5
-Alfajor;The Argentine cookie sandwich;dessert;300;12;45;3
-Boiled eggs;A simple and nutritious option;breakfast,snack;80;5;1;7
-Toast with butter;A basic option;breakfast,snack;150;8;16;3
-Peanut butter toast;Toast spread with peanut butter;breakfast,snack;190;16;12;7
-Oatmeal;A healthy and hearty option;breakfast,snack;150;3;27;5
-Cereal with milk;A classic quick option;breakfast,snack;200;4;40;7
-Scrambled eggs;A simple and protein-rich option;breakfast,snack;150;10;2;12
-Greek yogurt with berries;A healthy option with probiotics;breakfast,snack;180;5;20;10
-Avocado toast;Toast topped with mashed avocado;breakfast,snack;240;15;25;6
-Smoothie;A blended fruit and yogurt option;breakfast,snack;250;2;45;10
-Bagel with cream cheese;A filling option;breakfast,snack;300;12;45;8
-Breakfast burrito;Tortilla with scrambled eggs and veggies;breakfast,snack;350;18;35;15
-English muffin with jam;A simple yet satisfying option;breakfast,snack;180;4;30;4
-Pancakes with syrup;A classic treat;breakfast,snack;350;12;55;6
-French toast with berries;A sweet and indulgent option;breakfast,snack;400;15;55;10
-Breakfast sandwich;Egg, cheese, and bacon on a bun;breakfast,snack;450;25;40;20
-Waffles with syrup;Crispy waffles topped with syrup;breakfast,snack;380;12;60;6
-Granola with milk;A crunchy, nutrient-packed option;breakfast,snack;250;10;35;8
-Fruit salad;A light and refreshing option;breakfast,snack;150;1;35;2
-Quiche Lorraine;A savory egg and bacon pie;breakfast,snack;450;30;30;15
-Shakshuka;Eggs poached in spicy tomato sauce;breakfast,snack;300;20;25;10
-Eggs Benedict;Poached eggs with hollandaise on an English muffin;breakfast,snack;450;35;25;12
-Croissant with ham and cheese;A flaky pastry filled with ham and cheese;breakfast,snack;400;22;30;15
-Chia seed pudding;A healthy and filling option;breakfast,snack;200;12;15;6
-Breakfast tacos;Tacos filled with eggs and veggies;breakfast,snack;350;18;35;15
-Huevos rancheros;Eggs served with salsa and tortillas;breakfast,snack;400;20;35;15
-Acai bowl;A smoothie bowl topped with granola and fruit;breakfast,snack;350;12;50;8
-Sausage and egg biscuit;A hearty sandwich;breakfast,snack;450;30;30;20
-Baked oatmeal;Oatmeal baked with fruits and nuts;breakfast,snack;300;12;45;10
-Cinnamon rolls;Sweet rolls with cinnamon and icing;breakfast,snack;420;15;65;6
-Dutch baby pancake;A large oven-baked pancake;breakfast,snack;500;25;55;12
+Apple;A crisp, juicy fruit with a naturally sweet and refreshing flavor, perfect for a snack or light dessert. Apples are rich in fiber and vitamin C, supporting digestion and boosting immunity.;breakfast,snack;95;0.3;25;0.5
+Banana;A soft, creamy fruit ideal for on-the-go snacking or smoothies. Bananas are a great source of potassium and energy-boosting carbohydrates, providing sustained energy throughout the day.;breakfast,snack;300;0.4;27;1.2
+Orange;A juicy and tangy fruit, perfect as a refreshing snack or breakfast addition. Oranges are high in vitamin C, which supports immune function and skin health.;breakfast,snack;62;0.2;15;1.2
+Watermelon;A hydrating and sweet fruit that’s perfect for hot summer days. Watermelon is low in calories but rich in vitamins A and C, making it both refreshing and nutritious.;breakfast,snack;30;0.2;8;0.6
+Strawberry;Bright red, juicy berries that are a delicious snack or dessert topping. Strawberries are packed with antioxidants and vitamin C, which promote skin health and combat inflammation.;breakfast,snack;29;0.4;7;0.8
+Mango;A juicy tropical fruit known for its vibrant orange color and sweet flavor. Mangoes are rich in vitamins A and C, promoting good eye health and immune support.;breakfast,snack;60;0.4;15;0.8
+Pineapple;A tropical fruit with a perfect balance of sweet and tangy flavors, ideal for salads or desserts. Pineapples are high in bromelain, an enzyme that aids digestion and reduces inflammation.;breakfast,snack;50;0.1;13;0.5
+Grapes;Small, juicy fruits with a burst of sweetness in every bite, great for snacking. Grapes are a good source of vitamins C and K, as well as antioxidants that support heart health.;breakfast,snack;69;0.2;18;0.7
+Pasta with tomato sauce;A classic Italian dish featuring tender pasta in a savory tomato sauce. Pasta provides a good amount of carbohydrates, which are an excellent source of quick energy.;lunch,dinner;157;1.3;31;5.3
+Rice with vegetables;A hearty dish combining fluffy rice and a mix of colorful vegetables. The vegetables add fiber and essential vitamins, while rice is a great energy source from carbohydrates.;lunch,dinner;207;0.6;44;4.3
+Spaghetti with meatballs;A classic Italian dish of spaghetti served with juicy, flavorful meatballs. The combination of pasta and meat provides a balanced source of carbs, protein, and fats.;lunch,dinner;221;7.9;24;13.3
+Goulash;A rich Hungarian stew made with tender beef, vegetables, and paprika. Goulash is a good source of protein and iron from the beef, supporting muscle function and overall health.;lunch,dinner;155;6.6;10;14.1
+Lasagne;Layers of pasta, meat, and cheese baked to perfection in a rich tomato sauce. Lasagne offers a hearty balance of protein, carbs, and fats, making it a filling and satisfying meal.;lunch,dinner;185;7.3;19;10.1
+Pizza;A popular Italian dish made with a crispy crust, tomato sauce, and melted cheese. Pizza provides energy from carbohydrates and protein from the cheese, but can be high in fat.;lunch,dinner;266;10.2;33;12.1
+Hawaiian salad;A tropical salad featuring fresh fruits, vegetables, and often ham or chicken. This salad is light yet nutritious, providing a balance of carbs and fiber from fruits and veggies.;lunch,dinner;110;2.6;20;2.3
+Hamburger;A classic American dish with a juicy beef patty between two buns. Hamburgers are a good source of protein, but can be high in fats and calories depending on the toppings.;lunch,dinner;250;9.4;27;12.3
+Caesar salad;A flavorful salad with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing. This dish is rich in protein from the Parmesan and chicken, if added.;lunch,dinner;180;7.3;12;15.1
+Greek salad;A refreshing salad with cucumber, tomatoes, olives, and feta cheese. Greek salad is rich in antioxidants and healthy fats from the olives and feta, promoting heart health.;lunch,dinner;160;6.3;14;13.1
+Tiramisu;A decadent Italian dessert made with coffee-soaked ladyfingers, mascarpone cheese, and cocoa. Though rich in flavor, Tiramisu is high in fats and sugars, offering an indulgent treat.;dessert;450;31;38;6
+Pancakes;Fluffy and golden, pancakes are a breakfast favorite often served with syrup or fruit. Pancakes provide quick energy from carbs but are typically higher in fat and sugar.;dessert;200;8;27;6
+Apple pie;A classic American dessert with a sweet, spiced apple filling encased in flaky pastry. Apple pie offers a comforting balance of carbs and sugars, but can be high in calories and fats.;dessert;300;12;42;4
+Cheesecake;A rich and creamy dessert with a smooth texture, typically made with cream cheese and a graham cracker crust. Cheesecake is high in fats and sugars but delivers a satisfying sweet flavor.;dessert;321;15;41;5
+Chocolate cake;A rich, moist dessert made with layers of chocolate cake and frosting. Chocolate cake is indulgent but high in sugar and fats, providing a decadent treat.;dessert;400;20;50;6
+Ice cream;A creamy and cold dessert available in various flavors. Ice cream is rich in calcium, but often contains a lot of sugar and fats, making it a treat to enjoy in moderation.;dessert;207;11;25;3
+Meat with potatoes;A hearty dish featuring tender cuts of meat served with potatoes. This meal is a good source of protein and carbohydrates, but can also be higher in fat depending on the meat.;lunch,dinner;250;12;20;15
+Chicken with rice;A simple yet delicious combination of juicy chicken served over a bed of fluffy rice. This dish is rich in protein and provides energy-boosting carbohydrates.;lunch,dinner;300;15;25;20
+Fish with vegetables;A healthy dish featuring tender fish served with a variety of vegetables. Fish is an excellent source of lean protein and omega-3 fatty acids, while vegetables offer fiber and vitamins.;lunch,dinner;200;10;15;20
+Salmon with potatoes;A balanced meal with rich, flavorful salmon served alongside potatoes. Salmon is high in omega-3 fatty acids, which support heart health, while potatoes provide carbs.;lunch,dinner;250;12;20;15
+Trout with vegetables;A light and nutritious dish pairing trout with fresh vegetables. Trout is a great source of lean protein and omega-3s, while vegetables add fiber and nutrients.;lunch,dinner;200;10;15;20
+Baked cod;A light, flaky white fish that is baked to perfection, served with vegetables or potatoes. Cod is low in fat and calories while being rich in protein, making it a healthy option.;lunch,dinner;250;12;20;15
+Sushi;A Japanese dish featuring vinegared rice paired with seafood or vegetables. Sushi is low in fat and provides lean protein and essential nutrients like omega-3 fatty acids from fish.;lunch,dinner;200;5;30;8
+Grilled chicken salad;A nutritious salad topped with lean, grilled chicken, and fresh vegetables. This dish is low in fat and high in protein, making it an excellent choice for a healthy meal.;lunch,dinner;180;4;10;25
+Burrito;A Mexican dish where a soft tortilla wraps flavorful fillings like rice, beans, meat, and vegetables. Burritos provide a balanced source of protein, carbs, and fats, depending on the fillings.;lunch,dinner;290;10;40;12
+Fried rice;A popular Asian dish made with stir-fried rice and vegetables, often mixed with eggs or meat. Fried rice provides ample carbohydrates but can be higher in fats due to the cooking method.;lunch,dinner;250;8;30;6
+Porridge;A warm, hearty breakfast dish made with oats cooked in milk or water. Porridge is a great source of fiber and provides long-lasting energy from complex carbohydrates.;breakfast,snack;150;2;27;5
+Egg and avocado toast;A satisfying meal featuring creamy avocado spread over toast, topped with a poached egg. This dish provides healthy fats from the avocado and protein from the eggs.;breakfast,snack;220;12;18;10
+Vegetable stir-fry;A quick and nutritious dish made by stir-frying fresh vegetables with a light sauce. This dish is rich in vitamins, fiber, and healthy nutrients while being low in calories.;lunch,dinner;180;5;20;5
+Chicken tikka masala;A flavorful Indian dish featuring tender chicken in a spiced tomato sauce. This dish is high in protein and offers a balance of fats and carbohydrates.;lunch,dinner;300;15;25;20
+Falafel wrap;A Mediterranean dish where crispy falafel is wrapped in soft pita bread with fresh veggies and sauces. Falafel provides plant-based protein, fiber, and healthy fats.;lunch,dinner;250;10;30;8
+Miso soup;A light Japanese soup made with miso paste, tofu, and seaweed. Miso soup is low in calories and provides a healthy dose of probiotics and nutrients.;lunch,dinner;60;2;5;4
+Granola with yogurt;A crunchy and nutritious breakfast or snack featuring granola and creamy yogurt. This combination provides a good balance of carbohydrates, healthy fats, and protein.;breakfast,snack;200;8;30;6
+French toast;A sweet breakfast dish made by soaking bread in a mixture of eggs and milk, then frying. French toast provides a balance of carbohydrates and proteins but can be high in fats.;breakfast,snack;220;8;30;7
+Lentil soup;A hearty and filling soup made with tender lentils and vegetables. Lentils are a great source of plant-based protein and fiber, promoting digestion and satiety.;lunch,dinner;180;4;25;10
+Beef stew;A comforting dish featuring slow-cooked beef, vegetables, and broth. Beef stew is rich in protein and iron, supporting muscle health and overall energy levels.;lunch,dinner;300;15;20;25
+Pad Thai;A popular Thai dish made with stir-fried rice noodles, eggs, tofu, or shrimp in a flavorful sauce. Pad Thai offers a good balance of carbs and protein, with healthy fats from peanuts.;lunch,dinner;310;10;45;15
+Chia pudding;A healthy snack made with chia seeds soaked in milk, often sweetened with honey. Chia seeds are high in omega-3s, fiber, and protein, making this a nutrient-dense choice.;snack,dessert;180;12;15;6
+Spring rolls;A light Asian snack made with fresh vegetables wrapped in thin rice paper or fried dough. Spring rolls are low in fat and provide fiber from the veggies.;snack;150;5;20;4
+Vegetarian pizza;A delicious pizza topped with fresh vegetables and a cheesy base. This dish provides energy from carbs and a moderate amount of protein, depending on the toppings.;lunch,dinner;240;8;35;10
+Couscous with vegetables;A Middle Eastern dish featuring fluffy couscous served with sautéed vegetables. Couscous provides a good source of carbs, while the vegetables add vitamins and fiber.;lunch,dinner;190;4;30;6
+Quinoa salad;A light and healthy salad with quinoa, vegetables, and often a light dressing. Quinoa is a complete protein, making this dish a great source of plant-based protein.;lunch,dinner;200;6;25;8
+Shakshuka;A Middle Eastern dish featuring eggs poached in a spiced tomato sauce. Shakshuka is rich in protein from the eggs and provides vitamins from the tomato sauce.;breakfast,lunch;160;8;12;10
+Baked beans on toast;A British classic featuring savory baked beans served over crispy toast. This dish provides fiber from the beans and energy-boosting carbs from the toast.;breakfast,snack;180;5;30;8
+Falafel;A popular Middle Eastern dish made from fried chickpea balls, often served in pita bread. Falafel is high in plant-based protein and fiber, making it a filling and nutritious option.;lunch,dinner;330;18;32;12
+Chicken Caesar wrap;A tasty wrap filled with grilled chicken, crisp lettuce, and Caesar dressing. This wrap provides protein from the chicken and healthy fats from the dressing.;lunch,dinner;290;10;30;20
+Vegetable curry;A flavorful Indian dish made with spiced vegetables simmered in a rich curry sauce. This dish is high in fiber and vitamins from the vegetables, offering a nutritious and filling meal.;lunch,dinner;240;10;35;8
+Eggplant Parmesan;A hearty Italian dish made with layers of breaded eggplant, marinara sauce, and melted cheese. This dish is a great source of protein and fiber, but can be high in fats.;lunch,dinner;380;20;40;15
+Beef tacos;A Mexican dish featuring seasoned beef served in a tortilla with toppings like salsa and cheese. Beef tacos are rich in protein but can also be higher in fat depending on the ingredients.;lunch,dinner;290;12;30;20
+Prawn cocktail;A light seafood appetizer featuring chilled prawns served with a tangy cocktail sauce. Prawns are low in fat and high in lean protein, making this dish both nutritious and tasty.;snack,lunch;120;5;10;12
+Lamb kebab;A Mediterranean dish featuring seasoned lamb grilled on skewers. Lamb kebabs are a good source of protein and healthy fats, offering a flavorful and filling option.;lunch,dinner;320;20;25;15
+Risotto with mushrooms;A creamy Italian dish made with Arborio rice and sautéed mushrooms. Risotto provides energy from carbs, while the mushrooms add fiber and essential nutrients.;lunch,dinner;350;12;50;10
+Avocado salad;A fresh and light salad featuring creamy avocado, leafy greens, and other vegetables. Avocados provide healthy fats, while the vegetables contribute fiber and vitamins.;lunch,dinner;200;15;10;5
+Gnocchi with pesto;Soft potato dumplings served in a rich basil pesto sauce. This dish provides a combination of carbs from the gnocchi and healthy fats from the pesto.;lunch,dinner;280;12;40;8
+Chili con carne;A hearty Mexican dish featuring ground beef, beans, and tomatoes cooked in a spiced sauce. This dish is high in protein and fiber, making it both filling and nutritious.;lunch,dinner;350;15;35;20
+Ratatouille;A classic French vegetable dish made with a medley of slow-cooked vegetables. Ratatouille is rich in vitamins and antioxidants, making it a light but nutritious option.;lunch,dinner;150;5;20;5
+Tofu stir-fry;A vegetarian dish featuring stir-fried tofu and fresh vegetables in a flavorful sauce. Tofu provides plant-based protein, while the veggies add fiber and essential nutrients.;lunch,dinner;220;12;25;15
+Shrimp scampi;A seafood dish made with tender shrimp sautéed in garlic butter and white wine. Shrimp is high in lean protein and low in fat, making this a nutritious and delicious choice.;lunch,dinner;280;15;20;20
+Tom Yum soup;A flavorful Thai soup made with shrimp, lemongrass, and a spicy-sour broth. Tom Yum is low in calories and fat, but high in protein and rich in vitamins.;lunch,dinner;120;3;15;10
+Greek yogurt with honey;A creamy and sweet snack made with thick Greek yogurt and a drizzle of honey. Greek yogurt is rich in protein and probiotics, promoting gut health.;snack;150;6;18;8
+Chicken quesadilla;A Mexican dish where grilled chicken and melted cheese are folded inside a tortilla. This dish is high in protein and provides a good balance of carbs and fats.;lunch,dinner;320;16;30;22
+Stuffed bell peppers;Colorful bell peppers filled with a mixture of rice, meat, and vegetables. This dish is high in fiber and vitamins from the peppers and provides protein from the filling.;lunch,dinner;250;10;35;15
+Paella;A traditional Spanish dish made with rice, saffron, and a mix of seafood or meats. Paella provides a hearty source of protein and carbohydrates, making it a filling meal.;lunch,dinner;350;10;45;15
+Bibimbap;A Korean dish consisting of mixed rice, vegetables, and often beef, topped with a fried egg. Bibimbap is high in protein and provides fiber and vitamins from the vegetables.;lunch,dinner;450;16;60;20
+Pho;A Vietnamese noodle soup made with broth, rice noodles, and thinly sliced beef or chicken. Pho is low in fat but rich in protein and carbs, offering a warm and nutritious meal.;lunch,dinner;350;5;50;15
+Samosa;A popular Indian snack made with a crispy pastry shell filled with spiced potatoes or meat. Samosas are high in carbs and fats but provide a deliciously flavorful treat.;snack;262;17;29;5
+Shawarma;A Middle Eastern dish made with marinated, spit-roasted meat served in a wrap or on a plate. Shawarma is rich in protein and fats, offering a flavorful and hearty meal.;lunch,dinner;500;25;40;30
+Fettuccine Alfredo;An Italian pasta dish made with fettuccine noodles in a creamy Alfredo sauce. This dish is high in fat and carbohydrates, offering a rich and indulgent meal.;lunch,dinner;570;35;45;15
+Poutine;A Canadian dish made of fries topped with cheese curds and gravy. Poutine is rich in carbs and fats, making it a delicious but indulgent option.;snack,lunch;740;40;80;15
+Arepa;A Venezuelan cornmeal cake often filled with cheese, meats, or avocados. Arepas are a good source of carbohydrates and provide some protein depending on the fillings.;breakfast,lunch;300;10;40;8
+Tacos al Pastor;A Mexican dish featuring marinated pork served on soft corn tortillas. This dish provides protein from the pork and energy from the tortillas.;lunch,dinner;280;12;25;18
+Kimchi fried rice;A Korean dish combining rice with spicy, fermented kimchi and often topped with a fried egg. This dish is rich in carbs and provides probiotics from the kimchi.;lunch,dinner;450;12;70;10
+Ceviche;A light and tangy Peruvian dish made with fresh fish marinated in citrus juices. Ceviche is low in fat and calories, but high in protein and vitamin C.;snack,lunch;150;3;10;20
+Moussaka;A Greek dish made with layers of eggplant, potatoes, and spiced ground meat topped with béchamel sauce. This dish is rich in protein and offers a hearty, satisfying meal.;lunch,dinner;350;18;25;15
+Pierogi;Polish dumplings filled with potatoes, cheese, or meat. Pierogi are a good source of carbohydrates and offer some protein, depending on the filling.;lunch,dinner;220;7;35;6
+Borscht;A vibrant Eastern European soup made from beets and often served with sour cream. Borscht is low in calories but rich in vitamins and antioxidants from the beets.;lunch,dinner;120;2;20;3
+Baklava;A sweet Middle Eastern pastry made with layers of filo dough, honey, and nuts. Baklava is rich in sugars and fats, making it a sweet and indulgent treat.;dessert;350;22;45;4
+Croissant;A flaky, buttery French pastry perfect for breakfast or a snack. Croissants are high in fats and carbs, providing a rich, indulgent bite.;breakfast,snack;231;12;26;5
+Roti Canai;A flaky Malaysian flatbread often served with curry. Roti Canai is high in carbs and fats, making it a delicious yet filling dish.;lunch,dinner;300;15;35;8
+Pad See Ew;A popular Thai dish made with stir-fried wide rice noodles and vegetables in a sweet soy sauce. Pad See Ew is rich in carbs and provides a good source of protein.;lunch,dinner;450;12;65;20
+Empanadas;A classic Argentine pastry filled with meat, cheese, or vegetables. Empanadas provide a balance of carbs and protein, making them a satisfying snack or meal.;snack,lunch;400;20;40;12
+Tagine;A slow-cooked Moroccan dish made with meat, vegetables, and fragrant spices. Tagine is a good source of protein and vitamins from the vegetables.;lunch,dinner;350;15;45;12
+Tandoori Chicken;An Indian dish featuring chicken marinated in yogurt and spices, then roasted. This dish is high in protein and offers a flavorful, low-carb meal.;lunch,dinner;300;12;15;40
+Fried plantains;A popular Caribbean dish made by frying ripe plantains. Fried plantains are rich in carbohydrates and sugars, offering a sweet and indulgent side or snack.;snack,lunch;290;14;45;2
+Dim sum;A variety of small Chinese dishes, often served in steamed or fried dumplings. Dim sum provides a range of flavors and textures, with moderate amounts of protein and carbs.;snack,lunch;210;10;25;8
+Fattoush;A fresh Middle Eastern salad made with crisp vegetables and fried pita pieces. Fattoush is low in calories but provides fiber and vitamins from the vegetables.;lunch,dinner;180;8;22;4
+Jollof rice;A flavorful West African dish made with rice cooked in a spicy tomato sauce. Jollof rice is rich in carbohydrates and offers a balanced, filling meal.;lunch,dinner;350;12;55;6
+Chicken schnitzel;A crispy, breaded chicken cutlet fried to perfection. Chicken schnitzel provides protein and fats, making it a hearty and satisfying dish.;lunch,dinner;400;20;35;30
+Bulgogi;A Korean dish made with marinated beef grilled to perfection. Bulgogi is rich in protein and offers a sweet and savory flavor profile.;lunch,dinner;450;25;40;25
+Ramen;A Japanese noodle soup made with a savory broth, noodles, and various toppings like pork and eggs. Ramen is rich in carbs and provides protein, making it a hearty, filling meal.;lunch,dinner;500;15;60;25
+Gado-Gado;An Indonesian salad made with a mix of vegetables, tofu, and peanut sauce. Gado-Gado is rich in protein from the tofu and healthy fats from the peanut sauce.;lunch,dinner;250;12;30;12
+Fried calamari;A Mediterranean dish featuring tender squid rings fried to a crispy golden brown. Calamari is rich in protein but can be higher in fats depending on the preparation.;snack,lunch;300;15;35;10
+Okonomiyaki;A Japanese savory pancake made with cabbage, meat, and a special sauce. Okonomiyaki provides a balance of protein, carbs, and fats, making it a filling meal.;lunch,dinner;400;20;50;15
+Pozole;A traditional Mexican soup made with hominy, pork, and a flavorful broth. Pozole is a good source of protein and fiber from the hominy, making it both hearty and nutritious.;lunch,dinner;320;12;45;15
+Hummus with pita;A Middle Eastern snack featuring creamy hummus served with warm pita bread. Hummus is high in protein and fiber, while the pita provides carbs for energy.;snack,lunch;300;12;45;10
+Escargot;A French delicacy featuring snails cooked in garlic butter. Escargot is high in protein and healthy fats, offering a unique and rich flavor.;snack,lunch;250;20;5;10
+Calzone;An Italian dish resembling a folded pizza, filled with cheese, meats, and vegetables. Calzones are rich in carbs and fats, offering a hearty, satisfying meal.;lunch,dinner;600;30;65;25
+Kofta;A Middle Eastern dish made with spiced ground meat, often grilled on skewers. Kofta is high in protein and fats, providing a flavorful and filling meal.;lunch,dinner;350;22;30;18
+Spanakopita;A Greek pie made with layers of flaky filo dough and a spinach and feta cheese filling. Spanakopita is rich in fiber and protein, thanks to the spinach and cheese.;snack,lunch;250;15;30;10
+Gazpacho;A cold Spanish soup made from blended raw vegetables like tomatoes and cucumbers. Gazpacho is refreshing, low in calories, and rich in vitamins and antioxidants.;lunch,dinner;150;7;20;3
+Sauerbraten;A German dish of marinated beef, slow-cooked to tenderness. Sauerbraten is rich in protein and provides a savory, hearty meal.;lunch,dinner;450;18;20;35
+Nasi Goreng;A popular Indonesian fried rice dish made with vegetables, eggs, and often meat. Nasi Goreng is rich in carbs and provides a good balance of protein.;lunch,dinner;500;15;70;15
+Yakitori;Japanese skewered chicken grilled to perfection, often glazed with a sweet sauce. Yakitori is high in protein and offers a tasty, low-fat option.;snack,lunch;250;10;10;30
+Tuna tartare;A light and refreshing appetizer made with finely chopped raw tuna and seasonings. Tuna tartare is high in lean protein and omega-3 fatty acids.;snack,lunch;200;8;5;25
+Gumbo;A Southern American stew made with a flavorful broth, meat or seafood, and okra. Gumbo is rich in protein and provides a balance of carbs and fats.;lunch,dinner;400;18;45;20
+Focaccia;A soft and airy Italian bread often flavored with herbs and olive oil. Focaccia is rich in carbohydrates and fats, making it a delicious and filling snack.;snack;300;15;40;8
+Lamb curry;A flavorful Indian dish made with tender lamb cooked in a spiced sauce. Lamb curry is rich in protein and offers a hearty, warming meal.;lunch,dinner;450;25;35;20
+Tostones;A popular Latin American snack made from twice-fried green plantains. Tostones are high in carbs and provide a crunchy, savory side or snack.;snack,lunch;250;10;35;3
+Baba ghanoush;A smoky and creamy Middle Eastern dip made from roasted eggplant and tahini. Baba ghanoush is rich in healthy fats and fiber, making it a nutritious snack.;snack;180;10;20;5
+Pavlova;A light and airy Australian dessert made with meringue, whipped cream, and fruit. Pavlova is lower in fat but high in sugars, offering a sweet and refreshing treat.;dessert;300;5;55;4
+Tamales;A Mexican dish made with masa dough filled with meat or vegetables, steamed in a corn husk. Tamales provide carbs from the dough and protein from the fillings.;lunch,dinner;350;15;45;10
+Couscous salad;A light and refreshing Mediterranean salad made with couscous and fresh vegetables. Couscous salad is rich in fiber and provides a moderate amount of protein.;lunch,dinner;200;8;30;5
+Fried chicken;A crispy, golden-brown chicken dish with a juicy interior. Fried chicken is high in protein, but also in fats and calories due to the frying process.;lunch,dinner;450;25;35;25
+Chicken shawarma wrap;A flavorful Middle Eastern wrap filled with marinated chicken, veggies, and sauces. This wrap is high in protein and provides a good balance of carbs and fats.;lunch,dinner;400;20;45;25
+Bruschetta;A classic Italian appetizer featuring toasted bread topped with fresh tomatoes, garlic, and olive oil. Bruschetta is low in calories and provides healthy fats from the olive oil.;snack;180;8;20;4
+Duck confit;A French delicacy made with duck legs slowly cooked in their own fat. Duck confit is rich in fats and protein, offering a tender and flavorful dish.;lunch,dinner;600;40;10;35
+Saganaki;A traditional Greek dish made with fried cheese, often served as an appetizer. Saganaki is high in protein and fats, offering a rich and indulgent flavor.;snack;400;25;10;25
+Churros;A Spanish dessert made from fried dough, often coated in sugar or dipped in chocolate. Churros are high in carbs and sugars, making them a sweet and indulgent treat.;dessert;300;12;45;4
+Kimchi pancake;A savory Korean snack made with fermented kimchi and a simple pancake batter. Kimchi pancakes are rich in carbs and provide probiotics from the kimchi.;snack,lunch;250;8;30;6
+Khachapuri;A Georgian dish featuring a boat-shaped bread filled with cheese and topped with a runny egg. Khachapuri is rich in fats and carbohydrates, offering a hearty, cheesy treat.;lunch,dinner;500;25;60;20
+Sichuan hotpot;A Chinese dish featuring a simmering pot of broth, meats, and vegetables cooked at the table. Sichuan hotpot is rich in protein, but can be high in fats due to the oily broth.;lunch,dinner;600;25;45;35
+Cassoulet;A French stew made with beans, sausages, and slow-cooked meats. Cassoulet is rich in protein and fiber, offering a hearty and comforting meal.;lunch,dinner;700;35;50;35
+Asado;An Argentine barbecue featuring grilled meats such as beef, pork, and sausages. Asado is high in protein but also in fats, making it a hearty and indulgent meal.;lunch,dinner;800;50;10;70
+Milanesa;A breaded meat cutlet, typically made with beef or chicken, fried to a golden crisp. Milanesa is rich in protein, but also higher in fats due to the frying process.;lunch,dinner;550;30;40;35
+Choripán;A popular Argentine sandwich made with grilled chorizo sausage in a crusty roll. Choripán is high in fats and protein, making it a flavorful but indulgent option.;lunch,dinner;450;25;30;25
+Empanada de carne;A savory Argentine pastry filled with spiced meat, often enjoyed as a snack or light meal. Empanadas provide carbs and protein, making them a satisfying snack.;lunch;300;15;35;12
+Provoleta;A grilled provolone cheese appetizer, often served as part of an Argentine barbecue. Provoleta is rich in protein and fats, offering a savory and indulgent dish.;snack;400;35;3;20
+Locro;A hearty Argentine stew made with corn, beans, and meat. Locro is rich in protein and fiber, offering a filling and nutritious meal.;lunch,dinner;600;20;60;30
+Humita;An Argentine dish made from cornmeal, cheese, and seasonings, often wrapped in corn husks. Humita is rich in carbs and provides a moderate amount of protein.;lunch,dinner;350;15;40;10
+Matambre a la pizza;A unique Argentine dish where grilled beef is topped with pizza-style ingredients like cheese and tomato sauce. This dish is high in protein and fats.;lunch,dinner;600;35;45;40
+Carbonada;A traditional Argentine stew made with beef, potatoes, and squash. Carbonada is rich in protein, fiber, and carbohydrates, making it a hearty and nutritious meal.;lunch,dinner;500;20;50;30
+Cazuela de mariscos;A seafood casserole featuring a mix of shellfish in a flavorful broth. This dish is high in lean protein from the seafood and offers a rich, satisfying flavor.;lunch,dinner;450;20;35;30
+Morcilla;An Argentine blood sausage made with pork and spices. Morcilla is rich in protein but also higher in fats, offering a unique and bold flavor.;snack,lunch;400;30;5;25
+Pastel de papas;An Argentine version of shepherd's pie, made with layers of mashed potatoes and spiced meat. This dish provides a hearty balance of protein, fats, and carbs.;lunch,dinner;500;25;50;25
+Puchero;A traditional Argentine boiled dish featuring meat and vegetables. Puchero is rich in protein and vitamins, offering a wholesome and hearty meal.;lunch,dinner;600;30;40;40
+Tarta Pascualina;A savory Argentine spinach pie made with layers of flaky pastry and a spinach filling. This dish provides a good source of fiber and protein, thanks to the spinach and eggs.;lunch,dinner;400;20;45;15
+Chimichurri sauce;A tangy and flavorful Argentine condiment made with parsley, garlic, and olive oil. Chimichurri is rich in healthy fats and adds a burst of flavor to grilled meats.;snack,lunch;150;15;3;1
+Revuelto Gramajo;An Argentine dish of scrambled eggs, fried potatoes, and ham. This dish is rich in protein and fats, making it a filling and savory meal.;lunch,dinner;450;30;30;15
+Fainá;An Argentine chickpea flatbread, often served as a side dish to pizza. Fainá is rich in fiber and plant-based protein, offering a gluten-free option.;snack;200;8;30;5
+Suprema a la napolitana;A breaded chicken cutlet topped with ham, cheese, and tomato sauce, baked to perfection. This dish is high in protein but can also be higher in fats.;lunch,dinner;600;35;50;40
+Arroz con pollo;A comforting Argentine dish of rice and chicken, often cooked with vegetables and spices. This dish is rich in protein and provides a balanced source of carbs.;lunch,dinner;450;15;55;30
+Lomito sandwich;An Argentine sandwich made with tender beef, cheese, and often fried eggs. Lomito is rich in protein but can be high in fats, making it a hearty meal.;lunch,dinner;700;40;60;35
+Bife de chorizo;A thick-cut Argentine grilled steak, known for its tenderness and rich flavor. Bife de chorizo is high in protein and fats, making it a filling and indulgent meal.;lunch,dinner;750;50;0;65
+Ensalada rusa;A traditional Argentine potato salad made with potatoes, peas, carrots, and mayonnaise. This dish is high in carbs and fats, making it a creamy and filling side.;lunch,dinner;350;25;20;5
+Pollo al disco;A flavorful Argentine chicken stew cooked in a large disc-shaped pan with vegetables. Pollo al disco is rich in protein and provides a wholesome, nutritious meal.;lunch,dinner;500;25;35;40
+Chocotorta;An Argentine dessert made with layers of chocolate cookies and dulce de leche cream. Chocotorta is rich in sugars and fats, offering a sweet and indulgent treat.;dessert;450;25;60;6
+Dulce de leche pancakes;Fluffy pancakes layered with creamy Argentine dulce de leche. This dessert is high in sugars and fats, offering a decadent and sweet treat.;dessert;400;15;60;6
+Sorrentinos;An Argentine stuffed pasta, similar to ravioli, filled with cheese, ham, or other ingredients. This dish is rich in carbs and protein, making it a filling meal.;lunch,dinner;550;20;70;25
+Ñoquis;Soft Argentine potato gnocchi, often served with a tomato or cheese sauce. Ñoquis provide a good source of carbohydrates and are typically low in fat.;lunch,dinner;450;15;70;12
+Pizza de fugazza;An Argentine pizza topped with caramelized onions and cheese. Fugazza pizza is rich in carbs and fats, offering a unique and flavorful pizza experience.;lunch,dinner;600;30;60;25
+Tortas fritas;A traditional Argentine fried bread, often served as a snack or with tea. Tortas fritas are high in carbs and fats, making them a delicious and indulgent treat.;snack;250;12;30;5
+Alfajor;A popular Argentine cookie sandwich filled with dulce de leche and often coated in chocolate. Alfajores are rich in sugars and fats, offering a sweet and indulgent treat.;dessert;300;12;45;3
+Boiled eggs;A simple and nutritious option, perfect for breakfast or a quick snack. Boiled eggs are rich in protein and healthy fats, making them a low-calorie, filling choice.;breakfast,snack;80;5;1;7
+Toast with butter;A basic yet satisfying snack or breakfast option. Toast provides carbs for quick energy, while butter adds a dose of healthy fats.;breakfast,snack;150;8;16;3
+Peanut butter toast;A classic option featuring toasted bread with creamy or crunchy peanut butter. This snack is rich in healthy fats and protein from the peanut butter.;breakfast,snack;190;16;12;7
+Oatmeal;A warm and hearty breakfast made with oats, often served with fruits or nuts. Oatmeal is a great source of fiber and provides slow-releasing energy from complex carbs.;breakfast,snack;150;3;27;5
+Cereal with milk;A quick and easy breakfast combining crunchy cereal with cold milk. This meal provides carbs from the cereal and protein from the milk, offering a balanced start to the day.;breakfast,snack;200;4;40;7
+Scrambled eggs;A simple, protein-rich dish made with lightly beaten eggs cooked until fluffy. Scrambled eggs are rich in protein and healthy fats, making them a great breakfast or snack.;breakfast,snack;150;10;2;12
+Greek yogurt with berries;A healthy snack or breakfast featuring creamy Greek yogurt topped with fresh berries. This dish is rich in protein, probiotics, and antioxidants.;breakfast,snack;180;5;20;10
+Avocado toast;A trendy and nutritious dish featuring mashed avocado spread over whole-grain toast. This dish is rich in healthy fats and fiber, making it a filling and balanced option.;breakfast,snack;240;15;25;6
+Smoothie;A refreshing and nutritious drink made with blended fruits, yogurt, and sometimes greens. Smoothies provide vitamins, fiber, and protein, making them a great on-the-go option.;breakfast,snack;250;2;45;10
+Bagel with cream cheese;A chewy bagel spread with creamy cheese, perfect for a quick breakfast or snack. This dish is rich in carbs and fats, making it a filling and satisfying meal.;breakfast,snack;300;12;45;8
+Breakfast burrito;A hearty breakfast option featuring scrambled eggs, veggies, and sometimes meat, all wrapped in a tortilla. Breakfast burritos provide a balance of protein, carbs, and fats.;breakfast,snack;350;18;35;15
+English muffin with jam;A light and sweet breakfast or snack option, featuring a toasted English muffin topped with fruit jam. This dish provides quick energy from the carbs and sugars.;breakfast,snack;180;4;30;4
+Pancakes with syrup;A classic breakfast option featuring fluffy pancakes drizzled with sweet syrup. Pancakes are rich in carbs, providing quick energy, but can be high in sugars.;breakfast,snack;350;12;55;6
+French toast with berries;A sweet and indulgent breakfast dish made with egg-soaked bread, topped with fresh berries. French toast provides protein and carbs but can be high in fats.;breakfast,snack;400;15;55;10
+Breakfast sandwich;A filling sandwich made with eggs, cheese, and often bacon or sausage. This dish is high in protein and fats, making it a hearty breakfast option.;breakfast,snack;450;25;40;20
+Waffles with syrup;Crispy waffles topped with syrup, making for a delicious breakfast or snack. Waffles are rich in carbs and sugars, offering a sweet and filling meal.;breakfast,snack;380;12;60;6
+Granola with milk;A crunchy and nutrient-packed breakfast made with granola served with milk. This dish provides fiber from the granola and protein from the milk.;breakfast,snack;250;10;35;8
+Fruit salad;A light and refreshing mix of fresh fruits, perfect for a snack or breakfast. Fruit salad is low in calories but rich in vitamins and antioxidants.;breakfast,snack;150;1;35;2
+Quiche Lorraine;A savory French pie made with eggs, bacon, and cheese in a flaky crust. Quiche Lorraine is rich in protein and fats, making it a satisfying breakfast or snack.;breakfast,snack;450;30;30;15
+Shakshuka;A spicy Middle Eastern dish of eggs poached in a rich tomato sauce. Shakshuka provides a good amount of protein and vitamins from the tomatoes.;breakfast,snack;300;20;25;10
+Eggs Benedict;A decadent breakfast dish featuring poached eggs and hollandaise sauce served on an English muffin. Eggs Benedict is high in protein and fats, making it an indulgent meal.;breakfast,snack;450;35;25;12
+Croissant with ham and cheese;A buttery, flaky croissant filled with savory ham and melted cheese. This dish is rich in protein and fats, offering a filling and indulgent snack or breakfast.;breakfast,snack;400;22;30;15
+Chia seed pudding;A healthy and filling breakfast or snack made with chia seeds soaked in milk. Chia seeds are high in omega-3s, fiber, and protein, making this a nutrient-dense option.;breakfast,snack;200;12;15;6
+Breakfast tacos;A savory breakfast option featuring scrambled eggs, vegetables, and sometimes meat, wrapped in a soft tortilla. Breakfast tacos provide a balance of protein, fats, and carbs.;breakfast,snack;350;18;35;15
+Huevos rancheros;A Mexican breakfast dish featuring eggs served with salsa and tortillas. Huevos rancheros are rich in protein and provide a balance of carbs and healthy fats.;breakfast,snack;400;20;35;15
+Acai bowl;A smoothie bowl made with blended acai berries and topped with fruits, nuts, and granola. Acai bowls are rich in antioxidants and provide a good source of fiber.;breakfast,snack;350;12;50;8
+Sausage and egg biscuit;A hearty breakfast sandwich made with sausage, eggs, and a flaky biscuit. This dish is rich in protein and fats, offering a filling and indulgent option.;breakfast,snack;450;30;30;20
+Baked oatmeal;A wholesome breakfast dish made with oats, fruits, and nuts, baked to perfection. Baked oatmeal is rich in fiber and provides slow-releasing energy.;breakfast,snack;300;12;45;10
+Cinnamon rolls;Sweet rolls filled with cinnamon and topped with icing, perfect for breakfast or a snack. Cinnamon rolls are high in sugars and fats, offering a sweet indulgence.;breakfast,snack;420;15;65;6
+Dutch baby pancake;A large, oven-baked pancake often served with fruit and powdered sugar. Dutch baby pancakes are rich in carbs and fats, making them a sweet and filling breakfast.;breakfast,snack;500;25;55;12
+Picada;An Argentine platter featuring a selection of cold cuts, cheeses, olives, and breads. Picada offers various proteins and fats from meats and cheeses.;snack;300;20;10;15
+Sandwich de miga;Thin-crusted Argentine sandwiches filled with ham, cheese, and sometimes vegetables. Provides carbs from bread and protein from fillings.;snack;250;10;30;12
+Deviled eggs;Hard-boiled eggs filled with a creamy yolk mixture seasoned with spices. High in protein and healthy fats.;snack;150;10;2;12
+Mozzarella sticks;Breaded and fried mozzarella cheese sticks served with marinara sauce. High in fats and protein from the cheese.;snack;280;15;20;10
+Nachos with salsa;Crispy tortilla chips served with spicy salsa. High in carbs with added vitamins from the salsa.;snack;200;8;28;4
+Guacamole with chips;Creamy avocado dip served with tortilla chips. Rich in healthy fats from avocado and carbs from chips.;snack;250;15;28;5
+Edamame;Steamed young soybeans lightly salted. Rich in plant-based protein and fiber.;snack;120;5;10;12
+Stuffed mushrooms;Mushroom caps filled with breadcrumbs, herbs, and cheese. Provides fiber and protein.;snack;180;10;15;6
+Sausage rolls;Pastry-wrapped sausages baked until golden brown. High in fats and protein.;snack;310;20;25;10
+Chicken wings;Fried or baked wings coated in spicy sauce. High in protein and fats.;snack;290;20;5;22
+Pretzels;Baked bread snack twisted into knots and sprinkled with salt. High in carbs for quick energy.;snack;220;2;46;7
+Popcorn;Light and airy popped corn kernels, often salted or buttered. Provides whole grains and fiber.;snack;150;8;18;3
+Olives;Flavorful cured fruits served as a snack. Rich in healthy fats and antioxidants.;snack;100;10;5;1
+Tapas;Variety of small Spanish dishes like olives, cheeses, and cured meats. Mix of proteins, fats, and carbs.;snack;250;15;10;12
+Antipasto platter;Italian appetizer with cured meats, cheeses, olives, and veggies. Offers proteins and healthy fats.;snack;300;20;10;15
+Cheese platter;Selection of various cheeses with crackers or bread. High in protein and fats.;snack;350;25;15;20
+Mini quiches;Small pastry shells filled with egg, cheese, and veggies. Provides protein and fats.;snack;200;12;15;8
+Onion rings;Slices of onion battered and fried until crispy. High in fats and carbs.;snack;280;15;30;4
+Potato skins;Baked potato halves topped with cheese, bacon, and sour cream. High in carbs and fats.;snack;320;20;28;8
+Caprese skewers;Skewered tomatoes, mozzarella, and basil drizzled with balsamic glaze. Provides protein and vitamins.;snack;120;8;5;6
+Satay chicken skewers;Grilled marinated chicken served with peanut sauce. High in protein and healthy fats.;snack;250;15;10;20
+Spring rolls (vegetarian);Rice paper rolls filled with fresh veggies and herbs. Low in fat, high in fiber.;snack;150;5;20;4
+Empanada de queso;Argentine cheese-filled pastry. High in carbs and protein.;snack;250;12;28;8
+Plantain chips;Fried thin slices of plantain, lightly salted. High in carbs, provides a crunchy snack.;snack;200;10;25;1
+Falafel balls;Deep-fried balls made from ground chickpeas and spices. High in plant-based protein and fiber.;snack;220;12;20;8
+Sushi rolls (vegetarian);Rice rolls filled with veggies wrapped in seaweed. Provides carbs and some protein.;lunch,dinner;180;3;35;5
+Cheese straws;Baked pastry sticks flavored with cheese and spices. High in carbs and fats.;snack;220;14;18;5
+Veggie sticks with hummus;Fresh vegetable sticks with creamy hummus dip. Provides fiber, vitamins, and protein.;snack;150;8;12;5
+Meat pies;Small pies filled with seasoned meat and gravy. High in protein, fats, and carbs.;lunch,dinner;300;18;25;12
+Matambre arrollado;Argentine rolled meat stuffed with veggies and eggs. Rich in protein and nutrients.;lunch,dinner;350;20;5;30
+Flan;Creamy Argentine custard dessert topped with caramel sauce. Rich in sugars and fats.;dessert;250;10;35;6
+Pastafrola;Argentine tart filled with quince paste or sweet potato jam. High in carbs and sugars.;dessert;300;12;45;4
+Tarte Tatin;French upside-down apple tart with caramelized apples. Rich in carbs and sugars.;dessert;350;15;50;4
+Crème brûlée;Creamy custard topped with caramelized sugar crust. Rich in fats and sugars.;dessert;300;20;30;6
+Brownies;Chocolatey squares often with nuts or chips. High in sugars and fats.;dessert;400;18;55;5
+Macarons;French meringue cookies filled with flavored cream. High in sugars, low in fats.;dessert;150;6;22;3
+Fruit tart;Pastry crust filled with custard and topped with fruits. Provides vitamins and carbs.;dessert;250;12;35;4
+Profiteroles;Cream-filled pastry balls topped with chocolate sauce. High in fats and sugars.;dessert;300;20;30;5
+Eclairs;Pastry filled with cream and topped with icing. Rich in sugars and fats.;dessert;350;18;40;6
+Chocolate mousse;Light and airy chocolate dessert. High in fats and sugars.;dessert;250;15;25;5
+Apple crumble;Baked apples with a crumbly topping. High in carbs and sugars.;dessert;350;15;50;4
+Black Forest cake;Chocolate cake with cherries and cream layers. Rich in fats and sugars.;dessert;400;20;55;6
+Banoffee pie;Pie with bananas, cream, and toffee. High in fats and sugars.;dessert;450;25;55;5
+Cannoli;Italian pastry tubes with sweet ricotta filling. High in fats and sugars.;dessert;220;12;25;5
+Lemon tart;French tart with sweet and tangy lemon filling. High in sugars.;dessert;300;15;40;5
+Gulab Jamun;Indian fried dough balls in sugar syrup. Very high in sugars and fats.;dessert;350;12;60;5
+Mochi ice cream;Japanese ice cream wrapped in sweet rice dough. High in sugars.;dessert;100;3;20;2
+Sticky toffee pudding;Sponge cake with dates and toffee sauce. High in sugars and fats.;dessert;450;20;60;5
+Trifle;English dessert with layers of cake, fruit, and custard. High in sugars and fats.;dessert;300;15;40;5
+Fruit salad with ice cream;Fresh fruits served with ice cream. Provides vitamins and sugars.;dessert;250;8;40;3
+Donuts;Fried dough rings often glazed. High in fats and sugars.;dessert;300;15;40;5
+Banana split;Banana with ice cream, sauces, and nuts. High in sugars and fats.;dessert;400;20;55;6
+Meringue;Light cookies made from egg whites and sugar. High in sugars.;dessert;100;0;23;1
+Rice pudding;Creamy dessert made with rice and milk. High in carbs and sugars.;dessert;200;5;35;5
+Panna cotta;Italian sweetened cream thickened with gelatin. Rich in fats and sugars.;dessert;250;15;25;3
+Éclair au café;Pastry with coffee cream and icing. High in sugars and fats.;dessert;350;18;40;6
+Fruit sorbet;Frozen dessert from sweetened fruit juice. Low in fat, high in sugars.;dessert;150;0;35;1
+Mille-feuille;French pastry with layers of puff pastry and cream. High in fats and sugars.;dessert;350;20;40;6
+Chocolate fondant;Warm chocolate cake with a liquid center. Rich in fats and sugars.;dessert;400;22;50;5
+Chaja cake;Uruguayan sponge cake with peaches and meringue. High in sugars and fats.;dessert;350;15;55;5
+Breakfast tacos with chorizo;Tacos filled with scrambled eggs, spicy chorizo, and cheese. High in protein and fats.;breakfast,snack;400;25;30;18
+Omelette with spinach and feta;Fluffy omelette with spinach and crumbled feta cheese. High in protein and vitamins.;breakfast,snack;350;18;10;25
+Scones with clotted cream;Buttery scones served with rich clotted cream and jam. High in fats and carbs.;breakfast,snack;450;20;55;8
+Egg and cheese muffin;English muffin with egg, cheese, and sometimes ham. High in protein and carbs.;breakfast,snack;350;18;30;20
+Acai smoothie;Blended acai berries with yogurt and fruits. Rich in antioxidants and carbs.;breakfast,snack;300;8;50;5
+Egg white scramble with veggies;A healthy scramble made with egg whites and sautéed vegetables. Low in fat, high in protein.;breakfast,snack;200;5;12;20
+Muesli with dried fruits;A mix of oats, dried fruits, and nuts served with milk. High in fiber and healthy fats.;breakfast,snack;280;10;40;8
+Breakfast casserole;Eggs, sausage, potatoes, and cheese baked together. High in protein and carbs.;breakfast,snack;450;25;35;22
+Chorizo and eggs;Scrambled eggs mixed with spicy chorizo sausage. High in protein and fats.;breakfast,snack;400;25;5;25
+Smoked salmon bagel;Bagel topped with smoked salmon, cream cheese, and capers. High in fats and protein.;breakfast,snack;400;20;40;20
+Churros with chocolate;A sweet and indulgent breakfast of fried dough with a thick chocolate dip.;breakfast,snack;450;20;60;5
+Breakfast parfait;Layered yogurt, granola, and fresh fruit. High in protein, fiber, and vitamins.;breakfast,snack;300;10;45;12
+Protein pancakes;High-protein pancakes made with protein powder and oats. Low in carbs, high in protein.;breakfast,snack;320;8;25;25
+Toasted rye with avocado and smoked salmon;Rye toast topped with creamy avocado and smoked salmon. Rich in healthy fats and protein.;breakfast,snack;350;18;30;20
+Hash browns and eggs;Crispy potato hash browns served with fried or scrambled eggs. High in carbs and fats.;breakfast,snack;400;20;45;12
+Blueberry muffins;Fluffy muffins filled with fresh blueberries. High in carbs and sugars.;breakfast,snack;350;12;55;5
+Egg and sausage casserole;Baked eggs with sausage, cheese, and vegetables. High in protein and fats.;breakfast,snack;450;30;15;25
+Smoothie bowl;A thick smoothie topped with fruits, granola, and seeds. High in vitamins and carbs.;breakfast,snack;350;10;55;8
+Spinach and mushroom frittata;An Italian-style omelette filled with spinach and mushrooms. High in protein and vitamins.;breakfast,snack;250;15;10;15
+Porridge with banana and honey;Warm oats topped with sliced banana and a drizzle of honey. High in carbs and fiber.;breakfast,snack;300;5;55;6
+Egg burrito with salsa;Eggs, cheese, and salsa wrapped in a tortilla. High in protein and carbs.;breakfast,snack;350;15;35;20
+Savory oatmeal with eggs;Oats cooked with savory seasonings and topped with a fried egg. High in protein and fiber.;breakfast,snack;300;10;40;10
+Cottage cheese with fruit;Creamy cottage cheese served with fresh fruit. Low in fat, high in protein.;breakfast,snack;200;5;20;12
+Pumpkin pancakes;Fluffy pancakes made with pumpkin puree and spices. High in carbs and vitamins.;breakfast,snack;350;12;55;8
+Maple bacon waffles;Crispy waffles topped with bacon and drizzled with maple syrup. High in carbs and fats.;breakfast,snack;500;25;65;12
+Beef stroganoff;Tender beef strips in a creamy mushroom sauce served over noodles. Rich in protein and carbs.;lunch,dinner;500;25;40;30
+Chickpea curry;Spiced chickpeas simmered in a flavorful curry sauce. High in fiber and plant-based protein.;lunch,dinner;350;15;40;12
+Grilled vegetable sandwich;A sandwich filled with grilled vegetables and pesto on whole-grain bread. High in fiber and vitamins.;lunch,dinner;350;15;45;12
+Beef burger with fries;Juicy beef patty in a bun, served with crispy fries. High in protein and carbs.;lunch,dinner;700;40;65;30
+Seafood paella;A Spanish dish with rice, seafood, and saffron. High in protein and carbs.;lunch,dinner;550;15;60;30
+Turkey sandwich with cranberry sauce;Sliced turkey with cranberry sauce on whole-grain bread. High in protein and carbs.;lunch,dinner;400;10;45;25
+Ravioli with marinara sauce;Pasta pockets filled with cheese or meat, served in marinara sauce. High in carbs and protein.;lunch,dinner;500;20;60;15
+Chicken katsu;Breaded and fried chicken cutlet served with rice. High in protein and carbs.;lunch,dinner;600;25;65;30
+Beef bourguignon;French stew with beef, red wine, and vegetables. Rich in protein and healthy fats.;lunch,dinner;550;30;25;40
+Spaghetti carbonara;Pasta with a creamy sauce made from eggs, cheese, and pancetta. High in carbs and fats.;lunch,dinner;600;30;50;20
+Shrimp fried rice;Fried rice with shrimp, eggs, and vegetables. High in protein and carbs.;lunch,dinner;500;15;70;20
+Chicken Alfredo pasta;Pasta with grilled chicken in a creamy Alfredo sauce. High in protein and carbs.;lunch,dinner;650;35;60;30
+Meatball sub;A sandwich filled with meatballs, marinara sauce, and melted cheese. High in protein and carbs.;lunch,dinner;600;25;70;30
+Chicken enchiladas;Corn tortillas stuffed with chicken and topped with enchilada sauce. High in protein and carbs.;lunch,dinner;550;25;60;30
+Vegetarian lasagna;Lasagna layered with vegetables, cheese, and marinara sauce. High in fiber and protein.;lunch,dinner;450;20;50;15
+Pulled pork sandwich;Slow-cooked pork served in a bun with barbecue sauce. High in protein and fats.;lunch,dinner;600;30;50;30
+Bangers and mash;Grilled sausages served with mashed potatoes and gravy. High in protein and carbs.;lunch,dinner;500;25;50;20
+Steak and potatoes;Grilled steak served with roasted potatoes. High in protein and carbs.;lunch,dinner;700;40;50;50
+Chicken Parmesan;Breaded chicken breast topped with marinara sauce and melted cheese. High in protein and fats.;lunch,dinner;600;30;50;40
+Eggplant lasagna;Layers of eggplant, marinara, and cheese. High in fiber and protein.;lunch,dinner;400;20;40;15
+Fried shrimp po' boy;A sandwich filled with fried shrimp, lettuce, and spicy mayo. High in fats and protein.;lunch,dinner;500;25;45;25
+Tuna niçoise salad;A hearty salad with tuna, green beans, potatoes, and eggs. High in protein and healthy fats.;lunch,dinner;400;20;35;25
+Lamb stew;Tender lamb slow-cooked with vegetables and herbs. Rich in protein and fats.;lunch,dinner;600;30;40;35
+Thai green curry;Chicken and vegetables simmered in a coconut milk-based green curry. High in protein and healthy fats.;lunch,dinner;500;25;40;25
+Beef fajitas;Sizzling beef strips served with peppers, onions, and tortillas. High in protein and carbs.;lunch,dinner;550;25;45;30
+Chicken Caesar salad wrap;Grilled chicken, lettuce, and Caesar dressing wrapped in a tortilla. High in protein and fats.;lunch,dinner;400;20;30;25
+Beef stir-fry;Tender beef slices stir-fried with vegetables and soy sauce. High in protein and vitamins.;lunch,dinner;500;20;35;30
+Quinoa and black bean bowl;Quinoa with black beans, avocado, and salsa. High in fiber and plant-based protein.;lunch,dinner;450;15;60;15
+Lamb chops with mint sauce;Grilled lamb chops served with a fresh mint sauce. High in protein and fats.;lunch,dinner;550;30;10;45
+Pork schnitzel;Breaded and fried pork cutlet. High in protein and fats.;lunch,dinner;600;30;45;35
+Vegetarian burrito bowl;Rice, beans, avocado, and veggies in a bowl. High in fiber and healthy fats.;lunch,dinner;450;15;65;12
+Turkey meatloaf;Lean ground turkey baked with spices and herbs. High in protein and low in fat.;lunch,dinner;400;15;30;25
+Barbecue ribs;Slow-cooked ribs glazed with barbecue sauce. High in protein and fats.;lunch,dinner;700;40;45;50
+Chicken shawarma plate;Marinated chicken served with rice, salad, and pita bread. High in protein and carbs.;lunch,dinner;550;25;55;35
+Mushroom risotto;Creamy Arborio rice cooked with mushrooms and Parmesan. High in carbs and fiber.;lunch,dinner;500;20;60;15
+Shepherd's pie;Ground beef and vegetables topped with mashed potatoes. High in protein and carbs.;lunch,dinner;600;30;50;25
+Beef and broccoli;Stir-fried beef with broccoli in a savory sauce. High in protein and vitamins.;lunch,dinner;450;15;35;30
+Chicken teriyaki;Grilled chicken coated in a sweet and savory teriyaki sauce. High in protein.;lunch,dinner;400;10;35;25
+Pesto pasta with grilled chicken;Pasta tossed in basil pesto with grilled chicken. High in protein and carbs.;lunch,dinner;550;25;60;30
+Falafel bowl with tahini;Crispy falafel served with quinoa, vegetables, and tahini sauce. High in plant-based protein.;lunch,dinner;450;20;50;15
+Cuban sandwich;Pressed sandwich with ham, roasted pork, Swiss cheese, and pickles. High in protein and carbs.;lunch,dinner;600;25;60;35
+Shish kebab;Grilled meat skewers served with rice and vegetables. High in protein and carbs.;lunch,dinner;500;20;45;30
+Lentil and vegetable stew;Hearty stew made with lentils, carrots, and potatoes. High in fiber and plant-based protein.;lunch,dinner;400;10;50;18
+Tandoori lamb;Spiced lamb cooked in a tandoor oven. High in protein and healthy fats.;lunch,dinner;500;25;20;35
+Stuffed zucchini;Zucchini filled with ground beef, rice, and herbs. High in protein and fiber.;lunch,dinner;350;15;35;20
+Grilled salmon with quinoa;Grilled salmon filet served with quinoa and vegetables. High in omega-3s and protein.;lunch,dinner;500;25;40;30
+Chicken mole;Chicken simmered in a rich, spiced mole sauce. High in protein and healthy fats.;lunch,dinner;450;20;40;25
+Bulgur with roasted vegetables;Nutty bulgur wheat served with roasted vegetables. High in fiber and vitamins.;lunch,dinner;400;15;55;12
+Crepes with Nutella;Thin French crepes filled with creamy Nutella spread. High in sugars and fats.;dessert;350;18;45;6
+Lemon meringue pie;Tart lemon filling topped with fluffy meringue. High in sugars and carbs.;dessert;400;15;60;5
+Coconut macaroons;Chewy coconut cookies often dipped in chocolate. High in fats and sugars.;dessert;150;10;20;2
+Peach cobbler;Warm peaches baked under a sweet, crumbly topping. High in carbs and sugars.;dessert;350;15;50;5
+Red velvet cake;Moist chocolate cake with a slight tang, often topped with cream cheese frosting. High in fats and sugars.;dessert;450;20;60;6
+Cheesecake with berry compote;Classic cheesecake topped with a fresh berry compote. High in fats and sugars.;dessert;350;20;45;6
+Chocolate eclairs;Choux pastry filled with cream and topped with chocolate glaze. High in sugars and fats.;dessert;300;15;40;6
+Chocolate-covered strawberries;Fresh strawberries dipped in rich chocolate. Low in calories, high in sugars.;dessert;150;8;20;1
+Sticky rice with mango;Thai dessert of sweet sticky rice served with fresh mango slices. High in carbs and sugars.;dessert;300;10;50;5
+Apple fritters;Fried dough filled with apples and cinnamon. High in fats and sugars.;dessert;350;15;50;5
+Tiramisu cheesecake;A fusion of tiramisu and cheesecake with layers of mascarpone and espresso-soaked ladyfingers. High in sugars and fats.;dessert;450;25;55;6
+Chocolate lava cake;Warm chocolate cake with a molten center. High in fats and sugars.;dessert;450;25;60;5
+Vanilla bean panna cotta;Italian dessert made with sweetened cream and vanilla beans, thickened with gelatin. Rich in fats and sugars.;dessert;250;15;25;3
+Hazelnut gelato;Creamy Italian ice cream flavored with roasted hazelnuts. High in fats and sugars.;dessert;250;15;30;5
+Tarte aux fraises;French strawberry tart with a sweet pastry crust and vanilla cream. High in sugars and fats.;dessert;350;20;45;5
+Matcha cheesecake;A creamy, green tea-flavored cheesecake. Rich in sugars and fats.;dessert;300;18;35;6
+Carrot cake;Moist cake filled with grated carrots and spices, topped with cream cheese frosting. High in sugars and fats.;dessert;400;20;50;5
+Dulce de leche brownies;Fudgy brownies swirled with sweet dulce de leche. High in fats and sugars.;dessert;350;18;50;4
+Baklava with pistachios;Layers of filo dough, honey, and crushed pistachios. High in sugars and fats.;dessert;400;22;45;6
+S'mores;Graham crackers, chocolate, and marshmallows toasted over a fire. High in sugars and fats.;dessert;250;12;35;3
+Yuzu sorbet;Light and refreshing sorbet made with Japanese yuzu citrus. Low in fat, high in sugars.;dessert;150;0;35;1
+Pumpkin pie;Spiced pumpkin filling in a flaky pastry crust. High in carbs and sugars.;dessert;300;12;40;5
+Mochi;Japanese rice cake made with sticky rice, sometimes filled with sweet bean paste. High in carbs.;dessert;150;3;30;2
+Black sesame ice cream;Creamy ice cream flavored with roasted black sesame seeds. High in fats and sugars.;dessert;250;15;30;5
+Chocolate truffles;Rich, creamy chocolate balls dusted with cocoa powder. High in fats and sugars.;dessert;200;12;20;3
