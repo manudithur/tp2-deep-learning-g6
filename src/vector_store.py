@@ -10,12 +10,12 @@ _ = load_dotenv(find_dotenv())
 data_path = os.getenv('DATA_PATH')
 
 class VectorDB:
-    def __init__(self, data_path: str, model_name: str, laod_data: bool = False):
+    def __init__(self, data_path: str, model_name: str, load_data: bool = False):
         self.data_path = data_path
         self.model_name = model_name
-        if laod_data:
+        if load_data:
             self.docs = self._load_data()
-        self.vectorstore = self._build_vectorstore(laod_data)
+        self.vectorstore = self._build_vectorstore(load_data)
 
     def _load_data(self):
         # Load data into a pandas DataFrame
@@ -25,15 +25,20 @@ class VectorDB:
         docs = []
         for _, row in df.iterrows():
             content = f"{row['title']}; {row['description']}; {row['type']}"
+            # Create type flags
+            types = [t.strip() for t in row['type'].split(',')]
+            type_flags = {f"Type_{t}": True for t in types}
             metadata = {
+                'Source': 'food',
                 'Name': row['title'],
                 'Calories': float(row['calories']),
                 'Fat': float(row['fat']),
                 'Carbohydrates': float(row['carbs']),
                 'Protein': float(row['protein']),
-                'Type': row['type'],
+                **type_flags  # Unpack the type flags into metadata
             }
             docs.append(Document(page_content=content, metadata=metadata))
+
         return docs
 
     def _build_vectorstore(self, load_data: bool):
@@ -54,7 +59,16 @@ class VectorDB:
             )
         return vectorstore
 
-    def similarity_search(self, query: str, constraints: dict):
+    def similarity_search(self, query: str, count: int, constraints: dict):
+        # Build filter constraints using $eq operator
+        type_constraints = [
+            {f"Type_{type_value}": {"$eq": True}}
+            for type_value in constraints["Type"]
+        ]
+        filter_constraints = {
+            "$or": type_constraints
+        }
+
         # Perform similarity search with metadata filters
-        docs = self.vectorstore.similarity_search(query, filter=constraints)
+        docs = self.vectorstore.similarity_search(query, filter=filter_constraints, k=count)
         return docs
