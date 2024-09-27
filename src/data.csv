@@ -132,7 +132,7 @@ Cassoulet;A French stew made with beans, sausages, and slow-cooked meats. Cassou
 Asado;An Argentine barbecue featuring grilled meats such as beef, pork, and sausages. Asado is high in protein but also in fats, making it a hearty and indulgent meal.;lunch,dinner;800;50;10;70
 Milanesa;A breaded meat cutlet, typically made with beef or chicken, fried to a golden crisp. Milanesa is rich in protein, but also higher in fats due to the frying process.;lunch,dinner;550;30;40;35
 Choripán;A popular Argentine sandwich made with grilled chorizo sausage in a crusty roll. Choripán is high in fats and protein, making it a flavorful but indulgent option.;lunch,dinner;450;25;30;25
-Empanada de carne;A savory Argentine pastry filled with spiced meat, often enjoyed as a snack or light meal. Empanadas provide carbs and protein, making them a satisfying snack.;lunch;300;15;35;12
+Empanada de carne;A savory Argentine pastry filled with spiced meat, often enjoyed as a snack or light meal. Empanadas provide carbs and protein, making them a satisfying snack.;lunch,dinner;300;15;35;12
 Provoleta;A grilled provolone cheese appetizer, often served as part of an Argentine barbecue. Provoleta is rich in protein and fats, offering a savory and indulgent dish.;snack;400;35;3;20
 Locro;A hearty Argentine stew made with corn, beans, and meat. Locro is rich in protein and fiber, offering a filling and nutritious meal.;lunch,dinner;600;20;60;30
 Humita;An Argentine dish made from cornmeal, cheese, and seasonings, often wrapped in corn husks. Humita is rich in carbs and provides a moderate amount of protein.;lunch,dinner;350;15;40;10
@@ -158,7 +158,7 @@ Sorrentinos;An Argentine stuffed pasta, similar to ravioli, filled with cheese, 
 Ñoquis;Soft Argentine potato gnocchi, often served with a tomato or cheese sauce. Ñoquis provide a good source of carbohydrates and are typically low in fat.;lunch,dinner;450;15;70;12
 Pizza de fugazza;An Argentine pizza topped with caramelized onions and cheese. Fugazza pizza is rich in carbs and fats, offering a unique and flavorful pizza experience.;lunch,dinner;600;30;60;25
 Tortas fritas;A traditional Argentine fried bread, often served as a snack or with tea. Tortas fritas are high in carbs and fats, making them a delicious and indulgent treat.;snack;250;12;30;5
-Alfajor;A popular Argentine cookie sandwich filled with dulce de leche and often coated in chocolate. Alfajores are rich in sugars and fats, offering a sweet and indulgent treat.;dessert;300;12;45;3
+Alfajor;A popular Argentine cookie sandwich filled with dulce de leche and often coated in chocolate. Alfajores are rich in sugars and fats, offering a sweet and indulgent treat.;dessert,snack;300;12;45;3
 Boiled eggs;A simple and nutritious option, perfect for breakfast or a quick snack. Boiled eggs are rich in protein and healthy fats, making them a low-calorie, filling choice.;breakfast,snack;80;5;1;7
 Toast with butter;A basic yet satisfying snack or breakfast option. Toast provides carbs for quick energy, while butter adds a dose of healthy fats.;breakfast,snack;150;8;16;3
 Peanut butter toast;A classic option featuring toasted bread with creamy or crunchy peanut butter. This snack is rich in healthy fats and protein from the peanut butter.;breakfast,snack;190;16;12;7
@@ -202,7 +202,7 @@ Chicken wings;Fried or baked wings coated in spicy sauce. High in protein and fa
 Pretzels;Baked bread snack twisted into knots and sprinkled with salt. High in carbs for quick energy.;snack;220;2;46;7
 Popcorn;Light and airy popped corn kernels, often salted or buttered. Provides whole grains and fiber.;snack;150;8;18;3
 Olives;Flavorful cured fruits served as a snack. Rich in healthy fats and antioxidants.;snack;100;10;5;1
-Tapas;Variety of small Spanish dishes like olives, cheeses, and cured meats. Mix of proteins, fats, and carbs.;snack;250;15;10;12
+Tapas;Variety of small Spanish dishes like olives, cheeses, and cured meats. Mix of proteins, fats, and carbs.;lunch,dinner;250;15;10;12
 Antipasto platter;Italian appetizer with cured meats, cheeses, olives, and veggies. Offers proteins and healthy fats.;snack;300;20;10;15
 Cheese platter;Selection of various cheeses with crackers or bread. High in protein and fats.;snack;350;25;15;20
 Mini quiches;Small pastry shells filled with egg, cheese, and veggies. Provides protein and fats.;snack;200;12;15;8
@@ -220,10 +220,10 @@ Veggie sticks with hummus;Fresh vegetable sticks with creamy hummus dip. Provide
 Meat pies;Small pies filled with seasoned meat and gravy. High in protein, fats, and carbs.;lunch,dinner;300;18;25;12
 Matambre arrollado;Argentine rolled meat stuffed with veggies and eggs. Rich in protein and nutrients.;lunch,dinner;350;20;5;30
 Flan;Creamy Argentine custard dessert topped with caramel sauce. Rich in sugars and fats.;dessert;250;10;35;6
-Pastafrola;Argentine tart filled with quince paste or sweet potato jam. High in carbs and sugars.;dessert;300;12;45;4
+Pastafrola;Argentine tart filled with quince paste or sweet potato jam. High in carbs and sugars.;dessert,snack;300;12;45;4
 Tarte Tatin;French upside-down apple tart with caramelized apples. Rich in carbs and sugars.;dessert;350;15;50;4
 Crème brûlée;Creamy custard topped with caramelized sugar crust. Rich in fats and sugars.;dessert;300;20;30;6
-Brownies;Chocolatey squares often with nuts or chips. High in sugars and fats.;dessert;400;18;55;5
+Brownies;Chocolatey squares often with nuts or chips. High in sugars and fats.;dessert,snack;400;18;55;5
 Macarons;French meringue cookies filled with flavored cream. High in sugars, low in fats.;dessert;150;6;22;3
 Fruit tart;Pastry crust filled with custard and topped with fruits. Provides vitamins and carbs.;dessert;250;12;35;4
 Profiteroles;Cream-filled pastry balls topped with chocolate sauce. High in fats and sugars.;dessert;300;20;30;5
