@@ -23,6 +23,10 @@ class Plans:
         VEGETARIAN = "Vegetarian"
         VEGAN = "Vegan"
 
+    class RESTRICTIONS(Enum):
+        GLUTEN_FREE = "celiac"
+        DAIRY_FREE = "lactose-intolerant"
+
     def __init__(self):
         # Read the dataset
         self.df = pd.read_csv("hf://datasets/sarthak-wiz01/nutrition_dataset/nutrition_dataset.csv")
@@ -33,20 +37,44 @@ class Plans:
         self.df['Weight'] = pd.to_numeric(self.df['Weight'], errors='coerce')
 
     def get_plan(self, age, gender, height, weight, activity_level, fitness_goal, diet_type):
-        # Filter the dataset based on user input
-        filtered_df = self.df[
-            (self.df['Age'] >= age - 3) & (self.df['Age'] <= age + 3) &
-            (self.df['Gender'].str.lower() == gender.value) &  # Compare enum value
-            (self.df['Height'] >= height - 5) & (self.df['Height'] <= height + 5) &
-            (self.df['Weight'] >= weight - 5) & (self.df['Weight'] <= weight + 5) &
-            (self.df['Activity Level'] == activity_level.value) &  # Compare enum value
-            (self.df['Fitness Goal'] == fitness_goal.value) &  # Compare enum value
-            (self.df['Dietary Preference'] == diet_type.value)  # Compare enum value
+        # Add a new column 'Score' to track the matching score for each plan
+        self.df['Score'] = 0
+
+        # Exact match conditions
+        filtered_df = self.df.copy()
+        filtered_df = filtered_df[
+            (filtered_df['Gender'].str.lower() == gender)  # Exact gender match
         ]
 
-        if filtered_df.empty:
-            raise ValueError("No plans found for the given input. Please adjust your criteria.")
-        
-        # Get the first plan from the filtered dataset
-        plan = filtered_df.iloc[0]
-        return plan
+        # Age matching with a range of +/- 3 years
+        filtered_df['Score'] += (filtered_df['Age'] >= age - 3) & (filtered_df['Age'] <= age + 3)
+
+        # Height matching with a range of +/- 5 cm
+        filtered_df['Score'] += (filtered_df['Height'] >= height - 5) & (filtered_df['Height'] <= height + 5)
+
+        # Weight matching with a range of +/- 5 kg
+        filtered_df['Score'] += (filtered_df['Weight'] >= weight - 5) & (filtered_df['Weight'] <= weight + 5)
+
+        # Activity level match
+        filtered_df['Score'] += (filtered_df['Activity Level'] == activity_level)
+
+        # Fitness goal match
+        filtered_df['Score'] += (filtered_df['Fitness Goal'] == fitness_goal)
+
+        # Diet type match
+        filtered_df['Score'] += (filtered_df['Dietary Preference'] == diet_type)
+
+        # Sort by the highest score
+        sorted_df = filtered_df.sort_values(by='Score', ascending=False)
+
+        # Print fist 5 rows of the sorted dataframe
+        print(sorted_df.head())
+
+        # If no matching plan is found with a score > 0
+        if sorted_df.empty or sorted_df['Score'].max() == 0:
+            raise ValueError("No suitable plans found for the given input. Please adjust your criteria.")
+
+        # Get the best-matching plan (highest score)
+        best_plan = sorted_df.iloc[0]
+        return best_plan
+
