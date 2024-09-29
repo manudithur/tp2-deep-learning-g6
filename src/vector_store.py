@@ -28,6 +28,11 @@ class VectorDB:
             # Create type flags
             types = [t.strip() for t in row['type'].split(',')]
             type_flags = {f"Type_{t}": True for t in types}
+
+            print(row)
+
+            restrictions_allowed = [r.strip() for r in row['allowed'].split(',')]
+            restriction_flags = {f"Allowed_{r}": True for r in restrictions_allowed}
             metadata = {
                 'Source': 'food',
                 'Name': row['title'],
@@ -35,7 +40,8 @@ class VectorDB:
                 'Fat': float(row['fat']),
                 'Carbohydrates': float(row['carbs']),
                 'Protein': float(row['protein']),
-                **type_flags  # Unpack the type flags into metadata
+                **type_flags,
+                **restriction_flags
             }
             docs.append(Document(page_content=content, metadata=metadata))
 
@@ -65,8 +71,18 @@ class VectorDB:
             {f"Type_{type_value}": {"$eq": True}}
             for type_value in constraints["Type"]
         ]
+
+        restrictions_constraints = [
+            {f"Allowed_{restriction_value}": {"$eq": True}}
+            for restriction_value in constraints["Restrictions"]
+        ]
+
+        # Combine constraints into a single filter with a single top-level operator
         filter_constraints = {
-            "$or": type_constraints
+            "$and": [
+                {"$or": type_constraints},
+                *restrictions_constraints  # Unpack the list of restriction constraints
+            ]
         }
 
         # Perform similarity search with metadata filters
