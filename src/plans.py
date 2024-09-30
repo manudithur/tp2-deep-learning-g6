@@ -2,31 +2,6 @@ import pandas as pd
 from enum import Enum
 
 class Plans:
-
-    class GENDER(Enum):
-        MALE = "male"
-        FEMALE = "female"
-
-    class ACTIVITY_LEVEL(Enum):
-        SEDENTARY = "Sedentary"
-        LIGHTLY_ACTIVE = "Lightly Active"
-        MODERATELY_ACTIVE = "Moderately Active"
-        VERY_ACTIVE = "Very Active"
-
-    class FITNESS_GOAL(Enum):
-        WEIGHT_LOSS = "Weight Loss"
-        MUSCLE_GAIN = "Muscle Gain"
-        MAINTENANCE = "Maintenance"
-
-    class DIET_TYPE(Enum):
-        OMNIVORE = "Omnivore"
-        VEGETARIAN = "Vegetarian"
-        VEGAN = "Vegan"
-
-    class RESTRICTIONS(Enum):
-        GLUTEN_FREE = "celiac"
-        DAIRY_FREE = "lactose-intolerant"
-
     def __init__(self):
         # Read the dataset
         self.df = pd.read_csv("hf://datasets/sarthak-wiz01/nutrition_dataset/nutrition_dataset.csv")
@@ -66,10 +41,7 @@ class Plans:
 
         # Sort by the highest score
         sorted_df = filtered_df.sort_values(by='Score', ascending=False)
-
-        # Print fist 5 rows of the sorted dataframe
-        print(sorted_df.head())
-
+        
         # If no matching plan is found with a score > 0
         if sorted_df.empty or sorted_df['Score'].max() == 0:
             raise ValueError("No suitable plans found for the given input. Please adjust your criteria.")
