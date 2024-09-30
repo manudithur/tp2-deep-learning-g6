@@ -16,6 +16,7 @@ class VectorDB:
         if load_data:
             self.docs = self._load_data()
         self.vectorstore = self._build_vectorstore(load_data)
+        print("VectorDB initialized")
 
     def _load_data(self):
         # Load data into a pandas DataFrame
@@ -28,9 +29,6 @@ class VectorDB:
             # Create type flags
             types = [t.strip() for t in row['type'].split(',')]
             type_flags = {f"Type_{t}": True for t in types}
-
-            print(row)
-
             restrictions_allowed = [r.strip() for r in row['allowed'].split(',')]
             restriction_flags = {f"Allowed_{r}": True for r in restrictions_allowed}
             metadata = {
@@ -45,6 +43,7 @@ class VectorDB:
             }
             docs.append(Document(page_content=content, metadata=metadata))
 
+        print(f"Loaded {len(docs)} documents")
         return docs
 
     def _build_vectorstore(self, load_data: bool):
@@ -53,12 +52,14 @@ class VectorDB:
 
         # Build the vector store with documents that have metadata
         if load_data:
+            print("Building vector store from documents")
             vectorstore = Chroma.from_documents(
                 documents=self.docs,
                 embedding=embedding_function,
                 persist_directory="./src/chroma_db"
             )
         else:
+            print("Loading vector store from disk")
             vectorstore = Chroma(
                 embedding_function=embedding_function,
                 persist_directory="./src/chroma_db"
@@ -77,13 +78,17 @@ class VectorDB:
             for restriction_value in constraints["Restrictions"]
         ]
 
-        # Combine constraints into a single filter with a single top-level operator
-        filter_constraints = {
-            "$and": [
-                {"$or": type_constraints},
-                *restrictions_constraints  # Unpack the list of restriction constraints
-            ]
-        }
+        if restrictions_constraints:
+
+            # Combine constraints into a single filter with a single top-level operator
+            filter_constraints = {
+                "$and": [
+                    {"$or": type_constraints},
+                    *restrictions_constraints  # Unpack the list of restriction constraints
+                ]
+            }
+        else:
+            filter_constraints = {"$or": type_constraints}
 
         # Perform similarity search with metadata filters
         docs = self.vectorstore.similarity_search(query, filter=filter_constraints, k=count)
