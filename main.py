@@ -2,7 +2,7 @@
 from dotenv import load_dotenv, find_dotenv
 from src.models import Profile, DIET_TYPE, GENDER, ACTIVITY_LEVEL, FITNESS_GOAL, RESTRICTIONS
 from src.llm import LLM
-from src.metrics import evaluate_contextual_recall, evaluate_faithfulness, evaluate_answer_relevancy, evaluate_contextual_precision
+from src.metrics import Metrics
 _ = load_dotenv(find_dotenv())
 
 llm = LLM()
@@ -33,7 +33,8 @@ print(response+"\n")
 
 expected_response = "A banana contains 300 calories, 0.4 grams of fat, 27 carbohydrates, and 1.2 grams of protein."
 
-evaluate_contextual_precision(prompt, response, retrieved_docs, expected_response)
+metrics = Metrics(prompt, response, retrieved_docs, expected_response)
 
-evaluate_contextual_recall(prompt, response, retrieved_docs, expected_response)
+metrics.evaluate_contextual_precision()
+metrics.evaluate_contextual_recall()
 
