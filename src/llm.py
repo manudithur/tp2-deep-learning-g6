@@ -108,26 +108,27 @@ class LLM:
         For Dessert only include from the following options:
         {self.__format_docs__(dessert_docs)}
 
+        """
 
+        instructions = f"""
         Once you build the meal plan, calculate an estimate of the total calories, fat, carbohydrates, and protein for each day.
         Check for the difference between the daily nutritional requirements and the estimated values.
 
         Adjust servings or meals to get as close as possible to the daily nutritional requirements.
         
         Finally provide a average of the total calories, fat, carbohydrates, and protein for the whole week.
-
         """
 
         print("CONTEXT:\n", context)
 
-        response = self.__get_response_gpt4o__(prompt + context)
+        response = self.__get_response_gpt4o__(prompt + context + instructions)
         # response = ''
 
         retrieved_docs = []
         for doc in (breakfast_docs + snack_docs + lunch_dinner_docs + dessert_docs):
             retrieved_docs.append(self.__format_docs__([doc]))
 
-        return response, prompt, retrieved_docs
+        return response, prompt + instructions, retrieved_docs
 
     def query_question(self, prompt):
         docs = self.vectorDB.similarity_search(prompt, 5)
