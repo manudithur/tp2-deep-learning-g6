@@ -11,22 +11,22 @@ user_data = {
     "age": 22,
     "gender": GENDER.MALE.value,
     "height": 188,
-    "weight": 70,
+    "weight": 85,
     "activity_level": ACTIVITY_LEVEL.MODERATELY_ACTIVE.value,
     "fitness_goal": FITNESS_GOAL.MUSCLE_GAIN.value,
     "diet_type": DIET_TYPE.OMNIVORE.value,
-    "restrictions": [],
+    "restrictions": [RESTRICTIONS.DAIRY_FREE.value],
     "tastes": ["fish", "beef", "salad", "argentinian", "waffles", "eggs", "cheese"]
 }
 
 profile = Profile(**user_data)
 
 
-# response, prompt, retrieved_docs = llm.query_nutrisense(profile)
+response, prompt, retrieved_docs = llm.query_nutrisense(profile)
 
 # print(response)
 
-response, prompt, retrieved_docs = llm.query_question("What is the nutritional value of a banana?")
+#response, prompt, retrieved_docs = llm.query_question("What is the nutritional value of a banana?")
 print(prompt+"\n")
 print(retrieved_docs)
 print(response+"\n")
@@ -35,6 +35,6 @@ expected_response = "A banana contains 300 calories, 0.4 grams of fat, 27 carboh
 
 metrics = Metrics(prompt, response, retrieved_docs, expected_response)
 
-metrics.evaluate_contextual_precision()
-metrics.evaluate_contextual_recall()
+metrics.evaluate_answer_relevancy()
+metrics.evaluate_faithfulness()
 
