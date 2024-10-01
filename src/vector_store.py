@@ -66,29 +66,32 @@ class VectorDB:
             )
         return vectorstore
 
-    def similarity_search(self, query: str, count: int, constraints: dict):
+    def similarity_search(self, query: str, count: int, constraints: dict = None):
         # Build filter constraints using $eq operator
-        type_constraints = [
-            {f"Type_{type_value}": {"$eq": True}}
-            for type_value in constraints["Type"]
-        ]
-
-        restrictions_constraints = [
-            {f"Allowed_{restriction_value}": {"$eq": True}}
-            for restriction_value in constraints["Restrictions"]
-        ]
-
-        if restrictions_constraints:
-
-            # Combine constraints into a single filter with a single top-level operator
-            filter_constraints = {
-                "$and": [
-                    {"$or": type_constraints},
-                    *restrictions_constraints  # Unpack the list of restriction constraints
-                ]
-            }
+        if constraints is None:
+            filter_constraints = {}
         else:
-            filter_constraints = {"$or": type_constraints}
+            type_constraints = [
+                {f"Type_{type_value}": {"$eq": True}}
+                for type_value in constraints["Type"]
+            ]
+
+            restrictions_constraints = [
+                {f"Allowed_{restriction_value}": {"$eq": True}}
+                for restriction_value in constraints["Restrictions"]
+            ]
+
+            if restrictions_constraints:
+
+                # Combine constraints into a single filter with a single top-level operator
+                filter_constraints = {
+                    "$and": [
+                        {"$or": type_constraints},
+                        *restrictions_constraints  # Unpack the list of restriction constraints
+                    ]
+                }
+            else:
+                filter_constraints = {"$or": type_constraints}
 
         # Perform similarity search with metadata filters
         docs = self.vectorstore.similarity_search(query, filter=filter_constraints, k=count)
