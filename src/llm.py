@@ -125,7 +125,7 @@ class LLM:
 
         retrieved_docs = []
         for doc in (breakfast_docs + snack_docs + lunch_dinner_docs + dessert_docs):
-            retrieved_docs.append(doc.page_content)
+            retrieved_docs.append(self.__format_docs__([doc]))
 
         return response, prompt, retrieved_docs
 
@@ -142,6 +142,6 @@ class LLM:
 
         retrieved_docs = []
         for doc in docs:
-            retrieved_docs.append(doc.page_content)
+            retrieved_docs.append(self.__format_docs__([doc]))
 
         return response, prompt, retrieved_docs
