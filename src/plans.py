@@ -50,3 +50,5 @@ class Plans:
         best_plan = sorted_df.iloc[0]
         return best_plan
 
+    def format_plan(self, plan):
+        return f"""Daily Calorie Target: {plan['Daily Calorie Target']}\tFat: {plan['Fat']}\tCarbohydrates: {plan['Carbohydrates']}\tProtein: {plan['Protein']}"""

@@ -34,11 +34,9 @@ class LLM:
         return formatted_docs_string
 
     def query_nutrisense(self, user_data: Profile):
-        print("Getting plan")
+        print('-------------------------------------')
+        print('Getting plan')
         plan = Plans().get_plan(user_data.age, user_data.gender, user_data.height, user_data.weight, user_data.activity_level, user_data.fitness_goal, user_data.diet_type)
-        print("Got plan: ", plan)
-
-
 
         tastes_string = ''
         for taste in user_data.tastes:
@@ -49,16 +47,13 @@ class LLM:
         if user_data.diet_type == DIET_TYPE.VEGAN.value or user_data.diet_type == DIET_TYPE.VEGETARIAN.value:
             restrictions.append(user_data.diet_type.lower())
 
-        print("Tastes: ", tastes_string)
-        print("Restrictions: ", restrictions)
-
-        print('-------------------------------------')
         print('Looking for documents')
         breakfast_docs = self.vectorDB.similarity_search(tastes_string, 20, {"Type": ["breakfast", "-"], "Restrictions": restrictions})
         snack_docs = self.vectorDB.similarity_search(tastes_string, 20, {"Type": ["snack", "-"], "Restrictions": restrictions})
         lunch_dinner_docs = self.vectorDB.similarity_search(tastes_string, 30, {"Type": ["lunch", "dinner"], "Restrictions": restrictions})
         dessert_docs = self.vectorDB.similarity_search(tastes_string, 20, {"Type": ["dessert", '-'], "Restrictions": restrictions})
-
+        print('Got documents')
+        
         prompt = f"""I need to create a weekly meal plan. Include meals from monday to sunday. 
 
         Must include breakfast, lunch, dinner with a dessert, and snack.
@@ -119,19 +114,29 @@ class LLM:
         Finally provide a average of the total calories, fat, carbohydrates, and protein for the whole week.
         """
 
-        print("CONTEXT:\n", context)
+        print('Built prompt with augmented context')
 
         response = self.__get_response_gpt4o__(prompt + context + instructions)
+
+        print('Got response from GPT-4o')
+
+        print("-------------------------------------")
         # response = ''
 
         retrieved_docs = []
         for doc in (breakfast_docs + snack_docs + lunch_dinner_docs + dessert_docs):
             retrieved_docs.append(self.__format_docs__([doc]))
 
-        return response, prompt + instructions, retrieved_docs
+        return response, prompt + instructions, retrieved_docs, Plans().format_plan(plan)
 
     def query_question(self, prompt):
+
+        print("-------------------------------------")
+        print('Looking for documents')
+
         docs = self.vectorDB.similarity_search(prompt, 5)
+
+        print('Got documents')
 
         formatted_docs_string = self.__format_docs__(docs)
 
@@ -139,7 +144,13 @@ class LLM:
 
         context = f"""Only answer using information from the following documents: {formatted_docs_string}"""
 
+        print('Built prompt with augmented context')
+
         response = self.__get_response_gpt4o__(prompt + context)
+
+        print('Got response from GPT-4o')
+
+        print("-------------------------------------")
 
         retrieved_docs = []
         for doc in docs:

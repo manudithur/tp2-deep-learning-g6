@@ -22,7 +22,7 @@ user_data = {
 profile = Profile(**user_data)
 
 
-response, prompt, retrieved_docs = llm.query_nutrisense(profile)
+response, prompt, retrieved_docs, plan = llm.query_nutrisense(profile)
 
 # print(response)
 
