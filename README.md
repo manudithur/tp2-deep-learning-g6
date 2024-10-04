@@ -3,6 +3,12 @@
 
 Este repositorio contiene un trabajo práctico realizado para el Instituto Tecnológico de Buenos Aires (ITBA) en la materia 73.64 - Temas Avanzados en Deep Learning.
 
+## Tecnologias Utilizadas
+- ChromaDB
+- OpenAi
+- HuggingFace
+- Langchain
+
 ## Requisitos previos
 
 Antes de utilizar el proyecto, asegúrate de tener instalados los requisitos especificados en `requirements.txt`. Puedes hacerlo ejecutando el siguiente comando en tu entorno:
